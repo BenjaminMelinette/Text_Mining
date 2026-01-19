@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 from advanced_preprocessing import AdvancedTextPreprocessor as TextPreprocessor
 from model import ToxicityDetector
-from context_aware_model_v2 import ContextAwareToxicityDetectorV2
+from context_aware_model import ContextAwareToxicityDetector
 
 # Page configuration
 st.set_page_config(
@@ -67,18 +67,9 @@ def load_models():
     """Load trained models."""
     preprocessor = TextPreprocessor(remove_stopwords=False)
 
-    # Try to load context-aware v2 model
+    # Load pre-trained context-aware model
     try:
-        # Load training data to fit context-aware model
-        df = pd.read_csv('data/raw/gaming_chat_dataset.csv')
-        df['cleaned_text'] = preprocessor.preprocess_batch(df['message'].tolist())
-
-        context_aware_model = ContextAwareToxicityDetectorV2(max_features=5000)
-        context_aware_model.fit(
-            df['cleaned_text'].tolist(),
-            df['label'].values,
-            df['context_type'].tolist()
-        )
+        context_aware_model = ContextAwareToxicityDetector.load('models/context_aware_model.pkl')
     except Exception as e:
         st.warning(f"Could not load context-aware model: {e}")
         context_aware_model = None
@@ -169,8 +160,8 @@ def main():
     # Model info
     st.sidebar.subheader("📈 Model Info")
     if use_context_aware:
-        st.sidebar.success("Using Context-Aware v2")
-        st.sidebar.write("F1-Score: ~99.5%")
+        st.sidebar.success("Using Context-Aware (Learnable)")
+        st.sidebar.write("F1-Score: ~100%")
     else:
         st.sidebar.info("Using Baseline Model")
         if baseline_metrics:
@@ -313,20 +304,19 @@ def main():
             st.markdown("---")
             st.markdown('<div class="context-box">', unsafe_allow_html=True)
             st.markdown("""
-            **How Context-Aware Detection Works:**
+            **How Learnable Context-Aware Detection Works:**
 
-            1. **Context-Sensitive Words** (e.g., "kill", "destroy", "rekt"):
-               - In `pvp_combat`: Low toxicity weight (0.1-0.2) - normal gaming language
-               - In `casual`: High toxicity weight (0.7-0.9) - potentially threatening
+            1. **Word×Context Interaction Features**:
+               - For each important word and each context, a separate learnable feature is created
+               - The model learns different coefficients for "kill_pvp_combat" vs "kill_casual"
 
-            2. **Context-Independent Words** (e.g., "trash", "noob", "idiot"):
-               - Always have high toxicity weight regardless of context
-               - These are personal insults, not gaming actions
+            2. **Learned from Data**:
+               - Word sensitivities are discovered automatically from training data
+               - No hardcoded rules - the model finds which words are context-dependent
 
-            3. **The Formula:**
-               ```
-               word_score = base_toxicity × (1 - sensitivity × (1 - context_modifier))
-               ```
+            3. **Interpretable**:
+               - After training, we can extract learned word sensitivities
+               - We can see which contexts increase/decrease toxicity predictions
             """)
             st.markdown('</div>', unsafe_allow_html=True)
 
@@ -405,25 +395,25 @@ thanks for the game"""
 
         # Context sensitivity visualization
         if context_aware_model:
-            st.subheader("🎯 Word Context Sensitivity")
-            st.write("Words and how much their toxicity depends on context:")
+            st.subheader("🎯 Learned Word Sensitivities")
+            st.write("Words and how much their toxicity depends on context (learned from data):")
 
-            sens_df = context_aware_model.get_context_sensitive_features()
+            sens_df = context_aware_model.get_learned_word_sensitivities()
 
             # Split into categories
             col1, col2 = st.columns(2)
 
             with col1:
-                st.markdown("**Context-Dependent Words**")
+                st.markdown("**Most Context-Sensitive Words**")
                 st.write("These words change meaning based on game context:")
-                high_sens = sens_df[sens_df['Context Sensitivity'].str.rstrip('%').astype(int) > 50]
-                st.dataframe(high_sens.head(10), width='stretch')
+                high_sens = sens_df.head(15)[['word', 'base_coef', 'sensitivity']]
+                st.dataframe(high_sens, use_container_width=True)
 
             with col2:
-                st.markdown("**Context-Independent Words**")
-                st.write("These words are always toxic/safe:")
-                low_sens = sens_df[sens_df['Context Sensitivity'].str.rstrip('%').astype(int) <= 30]
-                st.dataframe(low_sens.head(10), width='stretch')
+                st.markdown("**Learned Context Effects**")
+                st.write("How each context affects toxicity prediction:")
+                context_effects = context_aware_model.get_learned_context_effects()
+                st.dataframe(context_effects, use_container_width=True)
 
         # Feature importance from baseline
         if baseline_model:
@@ -450,23 +440,24 @@ thanks for the game"""
         ### 🎯 Project Goal
         Detect toxic chat messages in video games using **context-aware** text mining.
 
-        ### 🔧 Key Innovation: Context-Aware Detection
+        ### 🔧 Key Innovation: Learnable Context-Aware Detection
 
-        The main contribution of this project is **word-level context modulation**:
+        The main contribution of this project is **learnable word×context interactions**:
 
-        | Word | pvp_combat | casual | Why? |
-        |------|------------|--------|------|
-        | "kill" | Low toxicity (0.1) | High toxicity (0.3) | Normal in combat |
-        | "destroy" | Low toxicity (0.1) | High toxicity (0.2) | Gaming action |
-        | "trash" | High toxicity (0.7) | High toxicity (0.8) | Always an insult |
-        | "noob" | High toxicity (0.6) | High toxicity (0.7) | Always an insult |
+        - Creates interaction features for top discriminative words × each context
+        - The model **learns from data** different weights for the same word in different contexts
+        - After training, learned sensitivities can be extracted for interpretability
+
+        **Example learned effects:**
+        - `pvp_combat` context reduces toxicity predictions (combat language is normal)
+        - `competitive` context increases toxicity predictions (higher stakes)
 
         ### 📚 Technical Approach
 
-        1. **TF-IDF Vectorization**: Convert text to numerical features
-        2. **Context Features**: One-hot encoded game context
-        3. **Word-Level Modulation**: Adjust word weights based on context sensitivity
-        4. **Logistic Regression**: Final classification with all features
+        1. **TF-IDF Vectorization**: Convert text to numerical features (277 features)
+        2. **Context Features**: One-hot encoded game context (6 features)
+        3. **Word×Context Interactions**: Learnable features (top 50 words × 6 contexts = 300 features)
+        4. **Logistic Regression**: Final classification with all 583 features
 
         ### 📊 Results
 
@@ -474,7 +465,7 @@ thanks for the game"""
         |-------|----------|-------------|
         | Baseline | 95.7% | Simple, fast |
         | Post-hoc Context | 96.3% | Better recall |
-        | **Context-Aware v2** | **99.5%** | **Best accuracy, interpretable** |
+        | **Context-Aware (Learnable)** | **~100%** | **Best accuracy, learns from data** |
 
         ### 🎓 Academic Rigor
         - 5-fold cross-validation

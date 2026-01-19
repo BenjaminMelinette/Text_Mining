@@ -12,7 +12,6 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from advanced_preprocessing import AdvancedTextPreprocessor
 from model import ToxicityDetector
 from context_aware_model import ContextAwareToxicityDetector
-from context_aware_model_v2 import ContextAwareToxicityDetectorV2
 
 
 def print_header(title):
@@ -68,11 +67,6 @@ def main():
     models['Context-v1'] = ContextAwareToxicityDetector(max_features=5000)
     models['Context-v1'].fit(X_train.tolist(), y_train, ctx_train.tolist())
 
-    # Model 4: Context-aware v2 (word-level + context features)
-    print("\n→ Training Model 4: Context-aware v2 (word-level + context features)...")
-    models['Context-v2'] = ContextAwareToxicityDetectorV2(max_features=5000)
-    models['Context-v2'].fit(X_train.tolist(), y_train, ctx_train.tolist())
-
     # ========================================
     # Evaluate on test set
     # ========================================
@@ -104,16 +98,6 @@ def main():
     y_pred = models['Context-v1'].predict(X_test.tolist(), ctx_test.tolist())
     results.append({
         'Model': 'Context-aware v1 (feature mod)',
-        'Accuracy': accuracy_score(y_test, y_pred),
-        'Precision': precision_score(y_test, y_pred),
-        'Recall': recall_score(y_test, y_pred),
-        'F1-Score': f1_score(y_test, y_pred)
-    })
-
-    # Context-v2
-    y_pred = models['Context-v2'].predict(X_test.tolist(), ctx_test.tolist())
-    results.append({
-        'Model': 'Context-aware v2 (word-level)',
         'Accuracy': accuracy_score(y_test, y_pred),
         'Precision': precision_score(y_test, y_pred),
         'Recall': recall_score(y_test, y_pred),
