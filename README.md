@@ -276,29 +276,9 @@ python -m ipykernel install --user --name=toxic-detector
 streamlit run demo.py --server.port 8502
 ```
 
-## Project Timeline
-
-This project is designed to be completed in **1 day**:
-
-- **Morning (4 hours)**:
-  - Dataset generation and exploration (1h)
-  - Model training and evaluation (2h)
-  - Initial visualizations (1h)
-
-- **Afternoon (4 hours)**:
-  - Jupyter notebook completion (2h)
-  - Streamlit demo development (1.5h)
-  - Presentation preparation (0.5h)
-
-## Resources
-
 ### Text Mining Concepts
 - TF-IDF: [scikit-learn documentation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
 - Logistic Regression: [scikit-learn documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-
-### Related Work
-- [Jigsaw Toxic Comment Classification (Kaggle)](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
-- [Perspective API (Google)](https://perspectiveapi.com/)
 
 ## License
 
