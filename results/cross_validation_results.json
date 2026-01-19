@@ -1,0 +1,42 @@
+{
+  "Logistic Regression": {
+    "accuracy_mean": 0.9475,
+    "accuracy_std": 0.009617692030835682,
+    "precision_mean": 0.9084262113072539,
+    "precision_std": 0.012195879275794902,
+    "recall_mean": 0.9834496994717989,
+    "recall_std": 0.014815786395844742,
+    "f1_mean": 0.9443652294592194,
+    "f1_std": 0.010063122578395168
+  },
+  "Linear SVM": {
+    "accuracy_mean": 0.951,
+    "accuracy_std": 0.007176350047203688,
+    "precision_mean": 0.9066485622105919,
+    "precision_std": 0.011700675687821049,
+    "recall_mean": 0.994475138121547,
+    "recall_std": 0.011049723756906093,
+    "f1_mean": 0.9484485233799058,
+    "f1_std": 0.00729720340514365
+  },
+  "Naive Bayes": {
+    "accuracy_mean": 0.9475,
+    "accuracy_std": 0.01254990039801115,
+    "precision_mean": 0.9151515370237082,
+    "precision_std": 0.015015250316016134,
+    "recall_mean": 0.9746281342966425,
+    "recall_std": 0.012358059670620147,
+    "f1_mean": 0.9439310938333237,
+    "f1_std": 0.013125676196055267
+  },
+  "Random Forest": {
+    "accuracy_mean": 0.951,
+    "accuracy_std": 0.007176350047203688,
+    "precision_mean": 0.9066485622105919,
+    "precision_std": 0.011700675687821049,
+    "recall_mean": 0.994475138121547,
+    "recall_std": 0.011049723756906093,
+    "f1_mean": 0.9484485233799058,
+    "f1_std": 0.00729720340514365
+  }
+}

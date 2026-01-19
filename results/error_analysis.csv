@@ -1,0 +1,17 @@
+message,true_label,predicted,probability,error_type
+why so serious,non-toxic,toxic,0.6231951718120033,false_positive
+tryhard,non-toxic,toxic,0.7137644329922602,false_positive
+easy noob newbie,non-toxic,toxic,0.7905245505614668,false_positive
+reported,non-toxic,toxic,0.7658718590342308,false_positive
+reported,non-toxic,toxic,0.7658718590342308,false_positive
+destroyed you,non-toxic,toxic,0.5479139527471293,false_positive
+owned,non-toxic,toxic,0.6441106710553229,false_positive
+nice hacks,non-toxic,toxic,0.5487900368501598,false_positive
+cheater,non-toxic,toxic,0.5856119389798327,false_positive
+reported,non-toxic,toxic,0.7658718590342308,false_positive
+why so serious,non-toxic,toxic,0.6231951718120033,false_positive
+why so serious,non-toxic,toxic,0.6231951718120033,false_positive
+it s just a game,non-toxic,toxic,0.7199479429314962,false_positive
+nice hacks,non-toxic,toxic,0.5487900368501598,false_positive
+i ll kill you,toxic,non-toxic,0.49420520514426064,false_negative
+i ll kill you,toxic,non-toxic,0.49420520514426064,false_negative

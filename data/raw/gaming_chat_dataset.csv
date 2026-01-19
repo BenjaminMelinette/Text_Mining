@@ -1,0 +1,2001 @@
+message,toxicity,context_score,context_type,label
+you don't deserve to play,0.99,0.793,competitive,1
+thanks for the game,0.175,0.256,pvp_combat,0
+you're trash,0.836,0.604,team_chat,1
+stupid noob,0.92,0.541,post_game,1
+wp wp,0.172,0.176,pvp_combat,0
+stop feeding moron,0.827,0.829,competitive,1
+nice try!,0.044,0.491,team_chat,0
+camper noob,0.635,0.559,all_chat,1
+wait for team,0.11,0.472,team_chat,0
+how are you this bad,0.778,0.562,post_game,1
+thanks for the game,0.121,0.656,competitive,0
+how are you this bad,0.766,0.812,competitive,1
+sit down,0.51,0.525,team_chat,1
+good call,0.181,0.275,casual,0
+how are you this bad,0.847,0.82,competitive,1
+uninstall you monkey,0.961,0.665,team_chat,1
+end your life,0.771,0.62,team_chat,1
+thanks for the game,0.117,0.61,team_chat,0
+you suck so bad,0.759,0.795,competitive,1
+you got lucky,0.406,0.164,casual,0
+thanks for heal,0.17,0.497,casual,0
+nice shot!,0.101,0.316,team_chat,0
+end your life,0.843,0.662,competitive,1
+tryhard,0.761,0.776,post_game,1
+almost had it,0.128,0.03,pvp_combat,0
+that was close,0.047,0.882,all_chat,0
+it's just a game,0.521,0.502,team_chat,1
+i'll help you,0.066,0.156,casual,0
+great teamwork guys,0.197,0.395,team_chat,0
+why so serious,0.453,0.379,casual,0
+wp wp,0.176,0.453,team_chat,0
+watch out behind you,0.111,0.972,competitive,0
+nice shot!,0.062,0.692,post_game,0
+kill yourself,0.784,0.553,post_game,1
+follow me,0.17,0.534,all_chat,0
+add me as friend,0.064,0.378,casual,0
+i hope you lose every game,0.952,0.77,post_game,1
+why so serious,0.312,0.196,pvp_combat,0
+camper noob,0.722,0.302,team_chat,1
+absolute garbage player,0.884,0.451,team_chat,1
+nice hacks,0.294,0.153,pvp_combat,0
+thanks for heal,0.189,0.465,casual,0
+i hope you lose every game,0.924,0.331,casual,1
+follow me,0.016,0.327,team_chat,0
+rematch?,0.123,0.457,team_chat,0
+nice kill,0.097,0.653,competitive,0
+kill yourself,0.756,0.594,team_chat,1
+nice shot!,0.149,0.45,team_chat,0
+reported,0.347,0.049,pvp_combat,0
+kill yourself,0.743,0.311,casual,1
+nice try!,0.148,0.104,pvp_combat,0
+follow me,0.069,0.856,competitive,0
+stupid noob,0.92,0.554,all_chat,1
+good luck have fun,0.197,0.647,team_chat,0
+that was close,0.111,0.255,pvp_combat,0
+absolute garbage player,0.712,0.659,competitive,1
+great teamwork guys,0.167,0.639,post_game,0
+cover me please,0.126,0.266,casual,0
+nice save,0.048,0.334,team_chat,0
+thanks for the game,0.031,0.838,all_chat,0
+nice try!,0.094,0.954,competitive,0
+let's try again,0.111,0.516,post_game,0
+nice kill,0.068,0.787,post_game,0
+destroyed you,0.466,0.361,casual,0
+reported,0.216,0.042,pvp_combat,0
+enemy spotted,0.063,0.658,all_chat,0
+you're trash,0.767,0.922,competitive,1
+you're retarded,0.886,0.334,casual,1
+need backup,0.12,0.845,all_chat,0
+neck yourself,0.879,0.636,competitive,1
+destroyed you,0.29,0.431,casual,0
+sit down,0.355,0.251,pvp_combat,0
+good luck have fun,0.116,0.605,competitive,0
+follow me,0.08,0.732,competitive,0
+thanks for the game,0.141,0.166,pvp_combat,0
+almost had it,0.132,0.396,team_chat,0
+uninstall you monkey,0.972,0.065,pvp_combat,1
+hacker,0.611,0.616,team_chat,1
+you suck so bad,0.75,0.52,team_chat,1
+you're useless,0.788,0.693,team_chat,1
+let's try again,0.015,0.895,all_chat,0
+good defense,0.199,0.732,competitive,0
+enemy spotted,0.012,0.566,post_game,0
+camper noob,0.578,0.651,competitive,1
+lets push together,0.194,0.43,team_chat,0
+you're retarded,0.873,0.69,competitive,1
+enemy spotted,0.128,0.704,all_chat,0
+wait for team,0.118,0.324,casual,0
+nice save,0.096,0.16,pvp_combat,0
+stupid noob,0.985,0.449,casual,1
+enemy spotted,0.089,0.417,post_game,0
+cover me please,0.046,0.336,pvp_combat,0
+hacker,0.51,0.584,post_game,1
+how are you still alive,0.706,0.853,competitive,1
+good game everyone,0.173,0.609,all_chat,0
+enemy spotted,0.069,0.395,pvp_combat,0
+nice save,0.144,0.421,casual,0
+nice try!,0.069,0.958,competitive,0
+let's try again,0.036,0.408,casual,0
+absolute garbage player,0.826,0.279,pvp_combat,1
+nice play,0.041,0.657,competitive,0
+great teamwork guys,0.005,0.759,all_chat,0
+trash team,0.753,0.834,all_chat,1
+worst player ever,0.966,0.424,casual,1
+die in a fire,0.762,0.664,all_chat,1
+nice play,0.016,0.356,pvp_combat,0
+nice hacks,0.21,0.079,pvp_combat,0
+get cancer,0.87,0.539,team_chat,1
+enemy spotted,0.139,0.56,post_game,0
+worst player ever,0.81,0.657,team_chat,1
+worst player ever,0.832,0.331,team_chat,1
+follow me,0.109,0.822,competitive,0
+smashed you,0.4,0.026,pvp_combat,0
+you're a waste of space,0.83,0.478,post_game,1
+hacker,0.784,0.707,post_game,1
+you're trash,0.859,0.221,pvp_combat,1
+let's try again,0.174,0.863,competitive,0
+good call,0.164,0.498,team_chat,0
+great teamwork guys,0.175,0.44,post_game,0
+kys noob,0.921,0.115,pvp_combat,1
+nice kill,0.128,0.679,all_chat,0
+destroyed you,0.291,0.192,pvp_combat,0
+i hope you lose every game,0.832,0.105,pvp_combat,1
+gg well played team!,0.1,0.318,casual,0
+follow me,0.064,0.563,post_game,0
+that was fun,0.027,0.356,pvp_combat,0
+neck yourself,0.794,0.428,team_chat,1
+follow me,0.081,0.952,competitive,0
+i hope you lose every game,0.772,0.519,team_chat,1
+camper noob,0.529,0.607,all_chat,1
+great teamwork guys,0.102,0.934,competitive,0
+absolute garbage player,0.732,0.201,pvp_combat,1
+need backup,0.065,0.045,pvp_combat,0
+i'll kill you,0.705,0.667,all_chat,1
+nice shot!,0.094,0.316,casual,0
+wait for team,0.027,0.991,competitive,0
+you don't deserve to play,0.96,0.675,post_game,1
+good game everyone,0.135,0.677,all_chat,0
+you're throwing the game,0.808,0.973,competitive,1
+uninstall the game noob,0.995,0.607,competitive,1
+nice save,0.046,0.89,all_chat,0
+you're retarded,0.728,0.573,all_chat,1
+let's try again,0.129,0.225,pvp_combat,0
+i'll kill you,0.229,0.237,casual,0
+nice save,0.166,0.549,all_chat,0
+cheater,0.753,0.574,post_game,1
+how are you this bad,0.711,0.753,competitive,1
+watch out behind you,0.035,0.286,casual,0
+kys noob,0.827,0.613,competitive,1
+you're trash,0.753,0.454,post_game,1
+your family must be ashamed,0.739,0.816,competitive,1
+let's regroup,0.122,0.444,post_game,0
+nice save,0.104,0.272,pvp_combat,0
+absolute garbage player,0.786,0.314,pvp_combat,1
+you're dead,0.639,0.68,competitive,1
+lets push together,0.106,0.225,casual,0
+kys noob,0.85,0.685,all_chat,1
+good defense,0.139,0.428,post_game,0
+you're dead,0.541,0.364,team_chat,1
+kill yourself,0.944,0.287,casual,1
+stupid noob,0.879,0.4,casual,1
+how are you this bad,0.884,0.714,all_chat,1
+kys noob,0.868,0.679,team_chat,1
+get cancer,0.806,0.546,team_chat,1
+kill yourself,0.857,0.691,post_game,1
+i'll help you,0.19,0.465,casual,0
+absolute garbage player,0.774,0.107,pvp_combat,1
+pathetic loser,0.834,0.392,pvp_combat,1
+worst player ever,0.717,0.429,post_game,1
+add me as friend,0.13,0.38,pvp_combat,0
+watch out behind you,0.038,0.845,all_chat,0
+uninstall you monkey,0.837,0.471,team_chat,1
+stop feeding moron,0.733,0.864,competitive,1
+pathetic loser,0.856,0.299,casual,1
+you got lucky,0.738,0.663,competitive,1
+nice shot!,0.086,0.518,team_chat,0
+let's regroup,0.108,0.213,casual,0
+end your life,0.959,0.002,pvp_combat,1
+get cancer,0.883,0.774,all_chat,1
+brain dead player,0.923,0.668,all_chat,1
+you got lucky,0.568,0.761,competitive,1
+your family must be ashamed,0.844,0.536,team_chat,1
+destroyed you,0.587,0.759,post_game,1
+good call,0.114,0.429,team_chat,0
+great teamwork guys,0.015,0.462,casual,0
+delete this game idiot,0.777,0.507,team_chat,1
+great teamwork guys,0.057,0.337,casual,0
+that was close,0.13,0.841,all_chat,0
+add me as friend,0.171,0.921,competitive,0
+trash team,0.881,0.868,all_chat,1
+end your life,0.939,0.393,casual,1
+almost had it,0.068,0.88,competitive,0
+cheater,0.739,0.484,post_game,1
+enemy spotted,0.187,0.129,casual,0
+nice save,0.195,0.246,pvp_combat,0
+wait for team,0.054,0.335,team_chat,0
+too easy,0.473,0.438,casual,0
+that was fun,0.083,0.54,post_game,0
+let's try again,0.015,0.146,casual,0
+go back to tutorial,0.844,0.579,all_chat,1
+cover me please,0.12,0.427,casual,0
+you're useless,0.702,0.416,casual,1
+sit down,0.594,0.572,post_game,1
+that was close,0.189,0.816,competitive,0
+thanks for the game,0.06,0.979,competitive,0
+that was close,0.016,0.815,competitive,0
+go back to tutorial,0.824,0.751,post_game,1
+need backup,0.044,0.791,competitive,0
+smashed you,0.521,0.571,all_chat,1
+die in a fire,0.758,0.633,competitive,1
+let's regroup,0.18,0.837,all_chat,0
+go back to tutorial,0.776,0.712,competitive,1
+nice shot!,0.048,0.595,post_game,0
+thanks for heal,0.089,0.333,team_chat,0
+nice try!,0.06,0.694,team_chat,0
+i hope you lose every game,0.943,0.145,casual,1
+add me as friend,0.146,0.625,all_chat,0
+almost had it,0.122,0.683,team_chat,0
+glhf everyone,0.019,0.255,casual,0
+let's regroup,0.123,0.48,team_chat,0
+rematch?,0.117,0.484,team_chat,0
+nice shot!,0.08,0.074,pvp_combat,0
+good game everyone,0.011,0.531,all_chat,0
+uninstall you monkey,0.948,0.679,competitive,1
+nice try!,0.03,0.41,post_game,0
+smashed you,0.767,0.747,all_chat,1
+great teamwork guys,0.155,0.384,team_chat,0
+nice try!,0.029,0.831,all_chat,0
+we can do this,0.144,0.575,team_chat,0
+glhf everyone,0.155,0.838,competitive,0
+stop feeding moron,0.846,0.747,all_chat,1
+you're useless,0.75,0.038,pvp_combat,1
+destroyed you,0.788,0.714,all_chat,1
+thanks for heal,0.198,0.929,competitive,0
+you're useless,0.857,0.706,post_game,1
+sweaty player,0.729,0.607,competitive,1
+great teamwork guys,0.179,0.092,pvp_combat,0
+uninstall you monkey,0.845,0.726,competitive,1
+neck yourself,0.977,0.452,team_chat,1
+neck yourself,0.761,0.178,pvp_combat,1
+your family must be ashamed,0.88,0.702,all_chat,1
+too easy,0.633,0.539,post_game,1
+i hope you get banned,0.814,0.783,post_game,1
+camper noob,0.298,0.358,casual,0
+nice save,0.154,0.311,pvp_combat,0
+rematch?,0.17,0.385,pvp_combat,0
+owned,0.742,0.649,competitive,1
+you're dead,0.34,0.153,pvp_combat,0
+add me as friend,0.012,0.336,pvp_combat,0
+let's regroup,0.02,0.55,team_chat,0
+brain dead player,0.927,0.673,post_game,1
+good game everyone,0.142,0.208,pvp_combat,0
+good call,0.18,0.893,all_chat,0
+smashed you,0.639,0.47,post_game,1
+nice save,0.066,0.695,competitive,0
+absolute garbage player,0.834,0.119,pvp_combat,1
+uninstall you monkey,0.915,0.195,pvp_combat,1
+absolute garbage player,0.79,0.371,casual,1
+kill yourself,0.857,0.635,competitive,1
+follow me,0.053,0.852,all_chat,0
+die in a fire,0.966,0.345,team_chat,1
+you're a waste of space,0.793,0.693,all_chat,1
+nice save,0.092,0.104,pvp_combat,0
+great teamwork guys,0.018,0.678,all_chat,0
+reported,0.626,0.832,competitive,1
+reported for being bad,0.807,0.47,team_chat,1
+good luck have fun,0.154,0.183,casual,0
+i hope you get banned,0.798,0.587,post_game,1
+uninstall the game noob,0.76,0.408,casual,1
+sweaty player,0.789,0.429,team_chat,1
+i'll help you,0.002,0.172,pvp_combat,0
+good game everyone,0.185,0.47,casual,0
+nice shot!,0.105,0.527,all_chat,0
+you're dead,0.799,0.555,post_game,1
+you're trash,0.799,0.475,casual,1
+you're useless,0.758,0.2,casual,1
+get rekt,0.694,0.757,competitive,1
+brain dead player,0.741,0.719,post_game,1
+thanks for the game,0.028,0.867,all_chat,0
+uninstall you monkey,0.783,0.384,casual,1
+that was close,0.008,0.776,all_chat,0
+lets push together,0.058,0.725,post_game,0
+good luck have fun,0.158,0.232,pvp_combat,0
+you're a waste of space,0.985,0.074,pvp_combat,1
+gg well played team!,0.043,0.053,pvp_combat,0
+worst player ever,0.927,0.045,pvp_combat,1
+neck yourself,0.934,0.546,team_chat,1
+great teamwork guys,0.115,0.752,competitive,0
+thanks for heal,0.198,0.37,team_chat,0
+almost had it,0.194,0.503,team_chat,0
+how are you still alive,0.955,0.814,competitive,1
+too easy,0.723,0.64,all_chat,1
+how are you still alive,0.95,0.72,post_game,1
+rematch?,0.174,0.207,pvp_combat,0
+get cancer,0.91,0.305,casual,1
+smashed you,0.75,0.882,all_chat,1
+worst player ever,0.845,0.445,post_game,1
+watch out behind you,0.133,0.84,all_chat,0
+nice shot!,0.068,0.982,competitive,0
+rematch?,0.037,0.678,all_chat,0
+let's regroup,0.033,0.768,post_game,0
+wait for team,0.139,0.034,pvp_combat,0
+neck yourself,0.886,0.687,post_game,1
+stupid noob,0.878,0.857,competitive,1
+you're trash,0.929,0.983,competitive,1
+nice kill,0.161,0.109,casual,0
+tryhard,0.595,0.478,post_game,1
+stop camping,0.62,0.773,all_chat,1
+you got lucky,0.728,0.849,competitive,1
+stop camping,0.746,0.686,post_game,1
+i'll kill you,0.593,0.619,team_chat,1
+let's try again,0.006,0.742,post_game,0
+that was close,0.029,0.872,competitive,0
+brain dead player,0.918,0.384,team_chat,1
+almost had it,0.166,0.866,all_chat,0
+worst player ever,0.872,0.354,team_chat,1
+get cancer,0.78,0.294,pvp_combat,1
+get cancer,0.88,0.653,team_chat,1
+gg well played team!,0.186,0.871,competitive,0
+nice kill,0.129,0.526,post_game,0
+reported,0.552,0.496,post_game,1
+nice hacks,0.242,0.459,casual,0
+thanks for heal,0.098,0.144,pvp_combat,0
+how are you this bad,0.771,0.71,competitive,1
+watch out behind you,0.081,0.92,competitive,0
+you don't deserve to play,0.703,0.472,casual,1
+ez noob,0.755,0.668,team_chat,1
+need backup,0.118,0.445,post_game,0
+i'll help you,0.188,0.135,pvp_combat,0
+enemy spotted,0.098,0.54,post_game,0
+stop camping,0.517,0.665,all_chat,1
+good call,0.108,0.476,casual,0
+sweaty player,0.291,0.444,casual,0
+good luck have fun,0.133,0.396,casual,0
+that was close,0.106,0.491,casual,0
+destroyed you,0.587,0.704,post_game,1
+enemy spotted,0.089,0.324,pvp_combat,0
+stop feeding moron,0.845,0.813,competitive,1
+you're a waste of space,0.922,0.61,team_chat,1
+cover me please,0.064,0.379,casual,0
+thanks for the game,0.058,0.246,pvp_combat,0
+that was close,0.056,0.434,casual,0
+that was fun,0.057,0.543,team_chat,0
+you don't deserve to play,0.841,0.357,team_chat,1
+how are you still alive,0.914,0.653,team_chat,1
+your family must be ashamed,0.966,0.766,post_game,1
+your family must be ashamed,0.988,0.563,all_chat,1
+thanks for heal,0.028,0.066,pvp_combat,0
+go back to tutorial,0.882,0.508,post_game,1
+you don't deserve to play,0.901,0.56,all_chat,1
+how are you still alive,0.743,0.281,casual,1
+you're a waste of space,0.812,0.753,post_game,1
+nice play,0.083,0.507,team_chat,0
+good luck have fun,0.156,0.811,competitive,0
+reported for being bad,0.888,0.253,casual,1
+your family must be ashamed,0.804,0.662,team_chat,1
+absolute garbage player,0.887,0.702,competitive,1
+kill yourself,0.865,0.432,casual,1
+stop camping,0.65,0.564,all_chat,1
+let's try again,0.154,0.473,team_chat,0
+how are you this bad,0.797,0.728,post_game,1
+need backup,0.032,0.867,all_chat,0
+i'll help you,0.068,0.77,all_chat,0
+rematch?,0.184,0.267,casual,0
+you're retarded,0.906,0.639,post_game,1
+destroyed you,0.615,0.69,competitive,1
+stop feeding moron,0.863,0.369,team_chat,1
+neck yourself,0.998,0.495,post_game,1
+reported,0.54,0.522,post_game,1
+you suck so bad,0.706,0.255,casual,1
+i hope you lose every game,0.854,0.104,casual,1
+you suck so bad,0.762,0.72,all_chat,1
+thanks for the game,0.142,0.018,pvp_combat,0
+your family must be ashamed,0.723,0.33,casual,1
+lets push together,0.044,0.594,post_game,0
+great teamwork guys,0.101,0.428,casual,0
+nice hacks,0.612,0.522,all_chat,1
+camper noob,0.74,0.527,all_chat,1
+delete this game idiot,0.766,0.578,all_chat,1
+you're dead,0.263,0.246,casual,0
+end your life,0.885,0.665,post_game,1
+absolute garbage player,0.747,0.828,all_chat,1
+you're throwing the game,0.901,0.634,post_game,1
+nice play,0.015,0.161,pvp_combat,0
+it's just a game,0.505,0.711,post_game,1
+good game everyone,0.08,0.516,team_chat,0
+great teamwork guys,0.157,0.952,competitive,0
+that was close,0.067,0.419,casual,0
+die in a fire,0.859,0.193,pvp_combat,1
+stop feeding moron,0.907,0.27,pvp_combat,1
+too easy,0.524,0.352,team_chat,1
+let's regroup,0.031,0.646,team_chat,0
+pathetic loser,0.734,0.785,competitive,1
+let's regroup,0.185,0.721,post_game,0
+get rekt,0.576,0.676,all_chat,1
+thanks for the game,0.03,0.833,competitive,0
+worst player ever,0.784,0.136,pvp_combat,1
+uninstall the game noob,0.888,0.756,post_game,1
+kill yourself,0.785,0.763,competitive,1
+you're trash,0.704,0.363,pvp_combat,1
+let's regroup,0.134,0.673,all_chat,0
+lets push together,0.09,0.636,team_chat,0
+get cancer,0.833,0.861,all_chat,1
+die in a fire,0.741,0.551,team_chat,1
+neck yourself,0.717,0.639,all_chat,1
+lets push together,0.02,0.379,casual,0
+lets push together,0.119,0.483,team_chat,0
+stop feeding moron,0.803,0.11,casual,1
+glhf everyone,0.052,0.03,pvp_combat,0
+uninstall you monkey,0.905,0.489,casual,1
+get cancer,0.998,0.143,casual,1
+why so serious,0.23,0.323,pvp_combat,0
+nice hacks,0.766,0.769,all_chat,1
+you're retarded,0.711,0.498,casual,1
+we can do this,0.126,0.668,team_chat,0
+wait for team,0.169,0.596,post_game,0
+reported for being bad,0.745,0.957,competitive,1
+you're dead,0.235,0.131,pvp_combat,0
+let's regroup,0.178,0.732,post_game,0
+ez noob,0.345,0.008,pvp_combat,0
+nice try!,0.114,0.642,team_chat,0
+good call,0.188,0.343,team_chat,0
+good defense,0.066,0.44,post_game,0
+rematch?,0.089,0.996,competitive,0
+nice play,0.025,0.222,casual,0
+i'll kill you,0.507,0.576,all_chat,1
+why so serious,0.709,0.658,team_chat,1
+owned,0.584,0.69,post_game,1
+camper noob,0.655,0.63,post_game,1
+brain dead player,0.941,0.523,post_game,1
+lets push together,0.082,0.566,post_game,0
+almost had it,0.042,0.127,casual,0
+you're throwing the game,0.747,0.048,pvp_combat,1
+reported,0.762,0.709,post_game,1
+end your life,0.941,0.68,all_chat,1
+good call,0.18,0.352,casual,0
+that was close,0.063,0.6,all_chat,0
+pathetic loser,0.755,0.712,competitive,1
+nice save,0.178,0.615,post_game,0
+enemy spotted,0.034,0.738,post_game,0
+smashed you,0.64,0.344,team_chat,1
+lets push together,0.031,0.587,all_chat,0
+reported for being bad,0.859,0.422,post_game,1
+wp wp,0.115,0.218,casual,0
+absolute garbage player,0.757,0.102,casual,1
+end your life,0.847,0.675,competitive,1
+you're dead,0.206,0.294,casual,0
+cover me please,0.199,0.215,pvp_combat,0
+you're throwing the game,0.915,0.039,pvp_combat,1
+nice save,0.144,0.495,casual,0
+uninstall you monkey,0.709,0.681,post_game,1
+worst player ever,0.754,0.121,casual,1
+you're dead,0.677,0.505,post_game,1
+pathetic loser,0.742,0.397,casual,1
+trash team,0.897,0.672,competitive,1
+uninstall the game noob,0.867,0.33,pvp_combat,1
+great teamwork guys,0.154,0.366,casual,0
+cover me please,0.06,0.147,pvp_combat,0
+good defense,0.069,0.675,all_chat,0
+you're dead,0.694,0.647,all_chat,1
+watch out behind you,0.034,0.198,casual,0
+lets push together,0.142,0.429,post_game,0
+why so serious,0.468,0.297,pvp_combat,0
+absolute garbage player,0.712,0.826,competitive,1
+good defense,0.105,0.125,casual,0
+follow me,0.177,0.439,post_game,0
+rematch?,0.187,0.209,casual,0
+good call,0.093,0.995,competitive,0
+good defense,0.09,0.805,competitive,0
+camper noob,0.598,0.308,team_chat,1
+you're trash,0.899,0.874,competitive,1
+delete this game idiot,0.919,0.341,team_chat,1
+reported,0.444,0.227,casual,0
+enemy spotted,0.06,0.018,pvp_combat,0
+that was close,0.183,0.105,pvp_combat,0
+stupid noob,0.702,0.762,competitive,1
+we can do this,0.168,0.661,competitive,0
+add me as friend,0.044,0.542,post_game,0
+smashed you,0.649,0.408,post_game,1
+delete this game idiot,0.873,0.496,team_chat,1
+need backup,0.096,0.614,post_game,0
+you're dead,0.65,0.672,competitive,1
+good luck have fun,0.17,0.384,casual,0
+add me as friend,0.169,0.767,all_chat,0
+owned,0.357,0.165,pvp_combat,0
+nice shot!,0.069,0.363,casual,0
+we can do this,0.163,0.802,competitive,0
+you're a waste of space,0.851,0.037,pvp_combat,1
+i'll help you,0.055,0.221,casual,0
+pathetic loser,0.914,0.574,all_chat,1
+reported,0.507,0.899,competitive,1
+uninstall you monkey,0.995,0.686,all_chat,1
+watch out behind you,0.012,0.261,pvp_combat,0
+pathetic loser,0.719,0.756,all_chat,1
+stop camping,0.305,0.214,pvp_combat,0
+let's try again,0.11,0.724,all_chat,0
+nice try!,0.176,0.034,pvp_combat,0
+cheater,0.331,0.142,casual,0
+thanks for heal,0.038,0.651,all_chat,0
+follow me,0.112,0.597,all_chat,0
+thanks for the game,0.009,0.735,competitive,0
+gg well played team!,0.053,0.182,pvp_combat,0
+worst player ever,0.991,0.316,casual,1
+you're useless,0.78,0.693,team_chat,1
+nice hacks,0.749,0.527,post_game,1
+nice try!,0.104,0.404,post_game,0
+nice kill,0.141,0.098,pvp_combat,0
+that was close,0.054,0.128,pvp_combat,0
+watch out behind you,0.14,0.452,post_game,0
+nice save,0.197,0.516,team_chat,0
+end your life,0.706,0.669,team_chat,1
+nice shot!,0.072,0.588,team_chat,0
+glhf everyone,0.076,0.812,competitive,0
+let's regroup,0.109,0.959,competitive,0
+i hope you get banned,0.808,0.462,post_game,1
+you suck so bad,0.786,0.36,pvp_combat,1
+how are you this bad,0.739,0.601,post_game,1
+reported for being bad,0.821,0.332,team_chat,1
+uninstall the game noob,0.746,0.739,all_chat,1
+good defense,0.164,0.598,post_game,0
+owned,0.545,0.495,post_game,1
+i hope you lose every game,0.949,0.205,pvp_combat,1
+follow me,0.178,0.395,pvp_combat,0
+great teamwork guys,0.144,0.548,all_chat,0
+thanks for the game,0.131,0.357,pvp_combat,0
+glhf everyone,0.109,0.425,post_game,0
+nice kill,0.188,0.399,casual,0
+you're throwing the game,0.917,0.859,all_chat,1
+gg well played team!,0.126,0.697,competitive,0
+stop camping,0.514,0.808,all_chat,1
+how are you still alive,0.96,0.685,all_chat,1
+cover me please,0.08,0.158,pvp_combat,0
+get cancer,0.747,0.473,casual,1
+you're retarded,0.713,0.808,competitive,1
+you don't deserve to play,0.834,0.4,post_game,1
+good game everyone,0.043,0.559,all_chat,0
+you're useless,0.959,0.734,post_game,1
+nice shot!,0.079,0.114,casual,0
+watch out behind you,0.063,0.427,post_game,0
+hacker,0.681,0.69,all_chat,1
+you got lucky,0.568,0.616,team_chat,1
+thanks for heal,0.049,0.862,competitive,0
+let's try again,0.011,0.582,all_chat,0
+nice play,0.087,0.337,casual,0
+we can do this,0.183,0.951,competitive,0
+good call,0.082,0.397,pvp_combat,0
+end your life,0.735,0.725,all_chat,1
+you got lucky,0.781,0.712,all_chat,1
+thanks for the game,0.039,0.452,team_chat,0
+let's regroup,0.145,0.155,casual,0
+die in a fire,0.817,0.488,post_game,1
+you suck so bad,0.73,0.513,team_chat,1
+good defense,0.035,0.986,competitive,0
+cheater,0.777,0.364,team_chat,1
+gg well played team!,0.115,0.591,post_game,0
+why so serious,0.703,0.584,post_game,1
+good luck have fun,0.191,0.139,pvp_combat,0
+add me as friend,0.092,0.652,post_game,0
+trash team,0.706,0.146,casual,1
+how are you this bad,0.833,0.473,casual,1
+wp wp,0.051,0.143,pvp_combat,0
+die in a fire,0.933,0.422,post_game,1
+kill yourself,0.827,0.507,team_chat,1
+kys noob,0.988,0.489,team_chat,1
+that was close,0.076,0.612,post_game,0
+how are you still alive,0.853,0.562,team_chat,1
+worst player ever,0.921,0.776,post_game,1
+thanks for the game,0.102,0.639,post_game,0
+how are you still alive,0.797,0.412,post_game,1
+destroyed you,0.228,0.438,casual,0
+i hope you get banned,0.83,0.896,all_chat,1
+stop feeding moron,0.977,0.45,casual,1
+why so serious,0.765,0.701,competitive,1
+stop camping,0.756,0.459,post_game,1
+tryhard,0.589,0.759,all_chat,1
+good luck have fun,0.075,0.789,competitive,0
+cover me please,0.022,0.066,pvp_combat,0
+i'll help you,0.045,0.663,team_chat,0
+you suck so bad,0.947,0.871,competitive,1
+thanks for heal,0.198,0.448,casual,0
+watch out behind you,0.088,0.573,all_chat,0
+gg well played team!,0.019,0.502,team_chat,0
+let's regroup,0.064,0.51,all_chat,0
+good defense,0.078,0.186,casual,0
+thanks for the game,0.132,0.666,competitive,0
+follow me,0.053,0.291,pvp_combat,0
+nice kill,0.039,0.611,all_chat,0
+you're throwing the game,0.734,0.785,post_game,1
+trash team,0.767,0.533,post_game,1
+reported for being bad,0.716,0.557,post_game,1
+add me as friend,0.007,0.446,post_game,0
+nice shot!,0.019,0.298,pvp_combat,0
+how are you this bad,0.753,0.814,all_chat,1
+almost had it,0.157,0.596,post_game,0
+trash team,0.872,0.46,post_game,1
+stop feeding moron,0.725,0.898,competitive,1
+nice shot!,0.118,0.174,pvp_combat,0
+kill yourself,0.775,0.359,casual,1
+you're trash,0.761,0.874,competitive,1
+glhf everyone,0.011,0.791,competitive,0
+uninstall you monkey,0.83,0.871,all_chat,1
+owned,0.532,0.487,post_game,1
+you're trash,0.841,0.962,competitive,1
+nice save,0.112,0.845,competitive,0
+you're dead,0.529,0.828,all_chat,1
+you're useless,0.937,0.709,competitive,1
+nice try!,0.198,0.42,team_chat,0
+nice hacks,0.768,0.643,team_chat,1
+neck yourself,0.774,0.785,post_game,1
+you got lucky,0.74,0.867,competitive,1
+thanks for heal,0.084,0.978,competitive,0
+how are you this bad,0.883,0.38,casual,1
+ez noob,0.566,0.362,team_chat,1
+hacker,0.671,0.706,post_game,1
+nice shot!,0.087,0.097,pvp_combat,0
+sit down,0.776,0.721,competitive,1
+delete this game idiot,0.76,0.624,post_game,1
+thanks for heal,0.091,0.185,casual,0
+you're retarded,0.794,0.976,competitive,1
+gg well played team!,0.189,0.801,all_chat,0
+owned,0.58,0.641,all_chat,1
+that was close,0.063,0.484,team_chat,0
+nice play,0.15,0.749,competitive,0
+thanks for heal,0.08,0.352,casual,0
+nice kill,0.175,0.507,team_chat,0
+wp wp,0.01,0.698,all_chat,0
+nice try!,0.114,0.566,team_chat,0
+go back to tutorial,0.72,0.415,casual,1
+we can do this,0.014,0.683,competitive,0
+get cancer,0.716,0.474,casual,1
+stop camping,0.55,0.682,all_chat,1
+rematch?,0.108,0.376,casual,0
+i'll help you,0.089,0.597,team_chat,0
+almost had it,0.155,0.536,post_game,0
+trash team,0.875,0.708,post_game,1
+get rekt,0.734,0.811,competitive,1
+watch out behind you,0.148,0.467,post_game,0
+nice play,0.161,0.652,competitive,0
+good defense,0.018,0.627,team_chat,0
+good defense,0.097,0.566,post_game,0
+good call,0.194,0.749,all_chat,0
+how are you this bad,0.932,0.685,all_chat,1
+nice try!,0.161,0.31,team_chat,0
+wait for team,0.039,0.942,competitive,0
+good call,0.107,0.687,team_chat,0
+good defense,0.091,0.224,pvp_combat,0
+good game everyone,0.116,0.624,competitive,0
+neck yourself,0.843,0.938,competitive,1
+need backup,0.177,0.731,all_chat,0
+nice save,0.094,0.627,team_chat,0
+i hope you get banned,0.879,0.791,all_chat,1
+how are you this bad,0.793,0.516,post_game,1
+follow me,0.141,0.367,pvp_combat,0
+i hope you get banned,0.976,0.297,casual,1
+let's try again,0.128,0.558,post_game,0
+reported,0.501,0.311,team_chat,1
+cover me please,0.086,0.76,competitive,0
+reported,0.541,0.455,team_chat,1
+thanks for heal,0.125,0.703,competitive,0
+watch out behind you,0.031,0.527,post_game,0
+delete this game idiot,0.883,0.745,all_chat,1
+lets push together,0.09,0.362,pvp_combat,0
+that was close,0.02,0.715,post_game,0
+uninstall the game noob,0.773,0.971,competitive,1
+i hope you lose every game,0.732,0.678,competitive,1
+trash team,0.898,0.463,post_game,1
+nice save,0.045,0.158,casual,0
+go back to tutorial,0.734,0.824,competitive,1
+worst player ever,0.998,0.503,all_chat,1
+neck yourself,0.898,0.509,all_chat,1
+your family must be ashamed,0.843,0.577,post_game,1
+we can do this,0.136,0.141,casual,0
+nice shot!,0.129,0.603,post_game,0
+kys noob,0.845,0.73,post_game,1
+thanks for heal,0.128,0.543,all_chat,0
+stop feeding moron,0.883,0.818,competitive,1
+reported for being bad,0.793,0.595,team_chat,1
+your family must be ashamed,0.767,0.642,all_chat,1
+trash team,0.791,0.684,team_chat,1
+gg well played team!,0.068,0.624,all_chat,0
+trash team,0.768,0.663,all_chat,1
+go back to tutorial,0.715,0.52,team_chat,1
+thanks for the game,0.007,0.847,competitive,0
+wp wp,0.134,0.379,casual,0
+owned,0.73,0.599,team_chat,1
+great teamwork guys,0.154,0.403,casual,0
+nice save,0.047,0.594,post_game,0
+cover me please,0.07,0.739,all_chat,0
+let's try again,0.065,0.217,casual,0
+you don't deserve to play,0.888,0.511,team_chat,1
+get rekt,0.508,0.314,team_chat,1
+let's try again,0.091,0.45,casual,0
+we can do this,0.183,0.696,post_game,0
+let's regroup,0.111,0.613,all_chat,0
+rematch?,0.041,0.515,team_chat,0
+watch out behind you,0.072,0.325,team_chat,0
+we can do this,0.009,0.654,team_chat,0
+rematch?,0.113,0.999,competitive,0
+uninstall the game noob,0.702,0.758,competitive,1
+go back to tutorial,0.91,0.475,post_game,1
+brain dead player,0.845,0.371,casual,1
+good defense,0.075,0.579,post_game,0
+add me as friend,0.178,0.532,team_chat,0
+uninstall you monkey,0.842,0.74,competitive,1
+cheater,0.481,0.227,pvp_combat,0
+glhf everyone,0.133,0.881,all_chat,0
+trash team,0.757,0.385,casual,1
+cheater,0.773,0.536,post_game,1
+enemy spotted,0.058,0.209,casual,0
+thanks for the game,0.171,0.469,post_game,0
+gg well played team!,0.023,0.571,all_chat,0
+stupid noob,0.987,0.686,team_chat,1
+gg well played team!,0.19,0.757,competitive,0
+great teamwork guys,0.052,0.899,competitive,0
+let's try again,0.136,0.611,competitive,0
+nice play,0.162,0.453,post_game,0
+rematch?,0.129,0.406,team_chat,0
+nice kill,0.141,0.867,all_chat,0
+delete this game idiot,0.785,0.742,all_chat,1
+stupid noob,0.759,0.999,competitive,1
+you don't deserve to play,0.985,0.83,all_chat,1
+stop feeding moron,0.83,0.498,casual,1
+hacker,0.705,0.548,all_chat,1
+we can do this,0.173,0.066,pvp_combat,0
+glhf everyone,0.049,0.615,team_chat,0
+ez noob,0.44,0.199,pvp_combat,0
+i'll kill you,0.617,0.651,all_chat,1
+add me as friend,0.025,0.441,post_game,0
+reported for being bad,0.843,0.698,post_game,1
+cover me please,0.105,0.582,all_chat,0
+add me as friend,0.131,0.956,competitive,0
+gg well played team!,0.058,0.712,post_game,0
+great teamwork guys,0.172,0.665,all_chat,0
+nice try!,0.149,0.705,competitive,0
+gg well played team!,0.147,0.727,all_chat,0
+you're a waste of space,0.937,0.822,all_chat,1
+how are you still alive,0.872,0.679,team_chat,1
+good luck have fun,0.003,0.651,competitive,0
+that was close,0.082,0.772,all_chat,0
+i'll help you,0.084,0.636,post_game,0
+reported,0.37,0.445,casual,0
+pathetic loser,0.734,0.584,post_game,1
+almost had it,0.045,0.567,all_chat,0
+let's try again,0.055,0.659,competitive,0
+let's try again,0.088,0.397,pvp_combat,0
+nice try!,0.013,0.235,pvp_combat,0
+i hope you lose every game,0.932,0.605,team_chat,1
+kys noob,0.865,0.374,casual,1
+absolute garbage player,0.781,0.831,competitive,1
+how are you this bad,0.908,0.526,team_chat,1
+thanks for the game,0.076,0.192,casual,0
+die in a fire,0.72,0.352,casual,1
+nice kill,0.09,0.649,all_chat,0
+we can do this,0.073,0.529,all_chat,0
+i hope you get banned,0.836,0.016,pvp_combat,1
+pathetic loser,0.912,0.718,competitive,1
+good luck have fun,0.175,0.18,pvp_combat,0
+absolute garbage player,0.945,0.438,team_chat,1
+how are you this bad,0.895,0.924,competitive,1
+pathetic loser,0.754,0.827,all_chat,1
+smashed you,0.781,0.687,all_chat,1
+trash team,0.994,0.344,pvp_combat,1
+cover me please,0.167,0.671,post_game,0
+stop feeding moron,0.999,0.544,post_game,1
+you're useless,0.972,0.704,competitive,1
+glhf everyone,0.185,0.68,post_game,0
+uninstall you monkey,0.87,0.44,post_game,1
+we can do this,0.151,0.628,all_chat,0
+you're throwing the game,0.932,0.621,post_game,1
+reported,0.749,0.601,post_game,1
+good luck have fun,0.047,0.33,casual,0
+you got lucky,0.747,0.796,competitive,1
+good game everyone,0.152,0.619,post_game,0
+good luck have fun,0.054,0.325,team_chat,0
+glhf everyone,0.043,0.558,post_game,0
+your family must be ashamed,0.794,0.146,casual,1
+wait for team,0.188,0.339,pvp_combat,0
+nice save,0.097,0.453,team_chat,0
+nice kill,0.16,0.198,casual,0
+that was close,0.1,0.016,pvp_combat,0
+you're trash,0.841,0.12,casual,1
+end your life,0.91,0.742,competitive,1
+that was fun,0.152,0.614,competitive,0
+uninstall you monkey,0.904,0.68,competitive,1
+nice save,0.131,0.446,casual,0
+delete this game idiot,0.901,0.941,competitive,1
+nice shot!,0.091,0.33,casual,0
+you're throwing the game,0.911,0.359,pvp_combat,1
+trash team,0.91,0.785,all_chat,1
+how are you still alive,0.909,0.457,team_chat,1
+how are you still alive,0.869,0.856,competitive,1
+reported for being bad,0.756,0.346,pvp_combat,1
+you're trash,0.8,0.315,casual,1
+you're retarded,0.869,0.597,team_chat,1
+die in a fire,0.898,0.087,pvp_combat,1
+absolute garbage player,0.801,0.514,team_chat,1
+that was close,0.016,0.584,post_game,0
+thanks for heal,0.039,0.444,team_chat,0
+nice play,0.131,0.292,casual,0
+trash team,0.857,0.443,team_chat,1
+nice kill,0.029,0.825,competitive,0
+that was fun,0.132,0.257,pvp_combat,0
+end your life,0.8,0.029,pvp_combat,1
+rematch?,0.121,0.733,post_game,0
+neck yourself,0.744,0.481,team_chat,1
+need backup,0.175,0.533,all_chat,0
+let's regroup,0.094,0.866,all_chat,0
+get cancer,0.976,0.684,team_chat,1
+glhf everyone,0.056,0.683,team_chat,0
+enemy spotted,0.119,0.513,all_chat,0
+you're useless,0.864,0.72,all_chat,1
+let's regroup,0.092,0.184,casual,0
+i'll help you,0.069,0.451,casual,0
+you're a waste of space,0.817,0.914,competitive,1
+you don't deserve to play,0.896,0.027,pvp_combat,1
+you're trash,0.873,0.195,casual,1
+your family must be ashamed,0.86,0.763,post_game,1
+add me as friend,0.116,0.563,team_chat,0
+that was fun,0.082,0.662,post_game,0
+wait for team,0.094,0.007,pvp_combat,0
+i hope you get banned,0.713,0.949,competitive,1
+brain dead player,0.834,0.48,casual,1
+good defense,0.111,0.455,team_chat,0
+neck yourself,0.785,0.769,all_chat,1
+how are you this bad,0.837,0.839,competitive,1
+worst player ever,0.762,0.184,pvp_combat,1
+go back to tutorial,0.956,0.626,post_game,1
+thanks for the game,0.127,0.401,team_chat,0
+get cancer,0.914,0.238,casual,1
+nice kill,0.151,0.372,casual,0
+good defense,0.02,0.401,casual,0
+delete this game idiot,0.718,0.691,all_chat,1
+trash team,0.934,0.235,casual,1
+kys noob,0.833,0.476,team_chat,1
+get cancer,0.965,0.387,team_chat,1
+nice hacks,0.742,0.515,post_game,1
+wait for team,0.105,0.892,all_chat,0
+kys noob,0.761,0.424,team_chat,1
+nice kill,0.032,0.057,pvp_combat,0
+you're retarded,0.85,0.611,team_chat,1
+neck yourself,0.946,0.067,pvp_combat,1
+kill yourself,0.935,0.71,all_chat,1
+rematch?,0.063,0.744,post_game,0
+nice kill,0.163,0.685,team_chat,0
+stop feeding moron,0.858,0.684,competitive,1
+lets push together,0.1,0.18,pvp_combat,0
+follow me,0.133,0.088,pvp_combat,0
+go back to tutorial,0.886,0.928,competitive,1
+why so serious,0.623,0.435,post_game,1
+i hope you lose every game,0.787,0.459,post_game,1
+cover me please,0.13,0.19,casual,0
+that was fun,0.011,0.602,team_chat,0
+good call,0.18,0.168,casual,0
+nice try!,0.179,0.765,competitive,0
+enemy spotted,0.096,0.625,team_chat,0
+cover me please,0.029,0.428,casual,0
+good game everyone,0.19,0.603,post_game,0
+reported for being bad,0.847,0.366,team_chat,1
+i'll help you,0.172,0.272,pvp_combat,0
+stop feeding moron,0.807,0.362,casual,1
+wait for team,0.187,0.183,pvp_combat,0
+your family must be ashamed,0.808,0.838,all_chat,1
+nice shot!,0.189,0.119,casual,0
+that was fun,0.055,0.244,casual,0
+you're dead,0.401,0.467,casual,0
+die in a fire,0.942,0.757,post_game,1
+good game everyone,0.158,0.234,casual,0
+why so serious,0.769,0.666,team_chat,1
+good luck have fun,0.033,0.874,all_chat,0
+destroyed you,0.76,0.741,all_chat,1
+thanks for the game,0.061,0.533,post_game,0
+sweaty player,0.621,0.58,all_chat,1
+destroyed you,0.633,0.591,team_chat,1
+watch out behind you,0.178,0.683,post_game,0
+rematch?,0.015,0.526,team_chat,0
+nice save,0.069,0.823,all_chat,0
+end your life,0.911,0.238,pvp_combat,1
+enemy spotted,0.013,0.716,competitive,0
+die in a fire,0.95,0.097,pvp_combat,1
+that was fun,0.109,0.769,competitive,0
+reported,0.458,0.353,casual,0
+good game everyone,0.111,0.183,pvp_combat,0
+let's try again,0.137,0.356,team_chat,0
+you're dead,0.581,0.67,all_chat,1
+trash team,0.824,0.122,casual,1
+thanks for the game,0.153,0.358,casual,0
+get rekt,0.79,0.522,team_chat,1
+you're dead,0.742,0.447,post_game,1
+follow me,0.043,0.293,casual,0
+good call,0.182,0.309,casual,0
+watch out behind you,0.152,0.162,pvp_combat,0
+we can do this,0.082,0.889,competitive,0
+brain dead player,0.925,0.322,team_chat,1
+that was fun,0.191,0.889,all_chat,0
+good call,0.058,0.128,casual,0
+end your life,0.76,0.829,all_chat,1
+nice try!,0.149,0.791,post_game,0
+nice try!,0.11,0.652,all_chat,0
+reported for being bad,0.884,0.715,competitive,1
+need backup,0.059,0.585,team_chat,0
+i hope you lose every game,0.929,0.73,post_game,1
+cheater,0.556,0.779,all_chat,1
+i hope you get banned,0.945,0.574,team_chat,1
+camper noob,0.609,0.546,team_chat,1
+uninstall you monkey,0.845,0.632,team_chat,1
+good defense,0.128,0.783,competitive,0
+absolute garbage player,0.705,0.127,casual,1
+owned,0.209,0.477,casual,0
+follow me,0.045,0.321,team_chat,0
+nice play,0.157,0.793,competitive,0
+nice try!,0.055,0.285,pvp_combat,0
+good defense,0.054,0.105,pvp_combat,0
+why so serious,0.437,0.053,pvp_combat,0
+get rekt,0.228,0.009,pvp_combat,0
+absolute garbage player,0.972,0.655,all_chat,1
+absolute garbage player,0.955,0.748,post_game,1
+nice try!,0.177,0.455,team_chat,0
+rematch?,0.171,0.323,team_chat,0
+good game everyone,0.183,0.467,team_chat,0
+cover me please,0.096,0.852,competitive,0
+neck yourself,0.976,0.577,team_chat,1
+thanks for the game,0.095,0.226,pvp_combat,0
+enemy spotted,0.062,0.36,casual,0
+thanks for the game,0.126,0.359,casual,0
+kys noob,0.732,0.86,competitive,1
+thanks for heal,0.016,0.548,all_chat,0
+good call,0.133,0.605,team_chat,0
+worst player ever,0.956,0.148,pvp_combat,1
+rematch?,0.003,0.685,team_chat,0
+follow me,0.196,0.428,post_game,0
+nice play,0.068,0.625,all_chat,0
+nice play,0.126,0.737,all_chat,0
+how are you this bad,0.933,0.608,team_chat,1
+nice try!,0.083,0.228,casual,0
+destroyed you,0.697,0.652,competitive,1
+delete this game idiot,0.938,0.628,competitive,1
+nice play,0.169,0.7,team_chat,0
+that was fun,0.017,0.659,all_chat,0
+nice save,0.171,0.02,pvp_combat,0
+watch out behind you,0.022,0.21,casual,0
+pathetic loser,0.74,0.444,casual,1
+need backup,0.183,0.295,casual,0
+thanks for the game,0.151,0.644,team_chat,0
+you're useless,0.786,0.728,competitive,1
+reported for being bad,0.701,0.68,competitive,1
+you're trash,0.814,0.268,pvp_combat,1
+cover me please,0.084,0.873,competitive,0
+nice try!,0.028,0.271,pvp_combat,0
+trash team,0.704,0.2,casual,1
+good call,0.074,0.697,post_game,0
+reported for being bad,0.902,0.602,competitive,1
+let's regroup,0.138,0.371,team_chat,0
+that was close,0.1,0.454,team_chat,0
+thanks for the game,0.083,0.464,team_chat,0
+i hope you get banned,0.875,0.885,all_chat,1
+nice save,0.097,0.858,all_chat,0
+stop camping,0.762,0.891,all_chat,1
+we can do this,0.112,0.291,casual,0
+add me as friend,0.164,0.395,team_chat,0
+how are you still alive,0.895,0.36,team_chat,1
+wait for team,0.01,0.25,pvp_combat,0
+kill yourself,0.903,0.297,casual,1
+good call,0.137,0.681,all_chat,0
+i'll help you,0.13,0.605,all_chat,0
+reported for being bad,0.888,0.528,team_chat,1
+sit down,0.698,0.8,competitive,1
+nice shot!,0.143,0.415,post_game,0
+thanks for heal,0.098,0.374,casual,0
+uninstall the game noob,0.761,0.477,post_game,1
+need backup,0.082,0.513,all_chat,0
+glhf everyone,0.019,0.569,team_chat,0
+neck yourself,0.761,0.671,team_chat,1
+wp wp,0.012,0.367,casual,0
+you suck so bad,0.971,0.192,casual,1
+pathetic loser,0.815,0.583,all_chat,1
+wp wp,0.066,0.751,competitive,0
+you're throwing the game,0.818,0.41,casual,1
+trash team,0.997,0.98,competitive,1
+delete this game idiot,0.951,0.8,all_chat,1
+enemy spotted,0.054,0.246,pvp_combat,0
+you're a waste of space,0.871,0.661,post_game,1
+nice play,0.076,0.375,casual,0
+tryhard,0.555,0.607,team_chat,1
+wait for team,0.193,0.073,pvp_combat,0
+how are you still alive,0.716,0.187,casual,1
+great teamwork guys,0.149,0.766,post_game,0
+destroyed you,0.358,0.164,pvp_combat,0
+let's try again,0.158,0.639,post_game,0
+destroyed you,0.234,0.066,pvp_combat,0
+let's regroup,0.199,0.865,competitive,0
+nice hacks,0.706,0.497,team_chat,1
+we can do this,0.166,0.873,all_chat,0
+you're useless,0.94,0.566,post_game,1
+gg well played team!,0.035,0.051,pvp_combat,0
+i'll help you,0.167,0.371,pvp_combat,0
+almost had it,0.092,0.104,casual,0
+add me as friend,0.133,0.749,all_chat,0
+cover me please,0.18,0.871,competitive,0
+pathetic loser,0.76,0.611,team_chat,1
+wp wp,0.195,0.604,team_chat,0
+sweaty player,0.57,0.596,team_chat,1
+good defense,0.05,0.625,team_chat,0
+camper noob,0.742,0.895,competitive,1
+why so serious,0.688,0.747,post_game,1
+i hope you lose every game,0.818,0.586,team_chat,1
+go back to tutorial,0.742,0.422,casual,1
+gg well played team!,0.159,0.417,team_chat,0
+thanks for heal,0.096,0.497,post_game,0
+nice try!,0.024,0.643,post_game,0
+delete this game idiot,0.872,0.496,casual,1
+thanks for heal,0.0,0.584,all_chat,0
+i hope you get banned,0.877,0.871,competitive,1
+good call,0.165,0.567,all_chat,0
+destroyed you,0.721,0.952,competitive,1
+wait for team,0.152,0.071,pvp_combat,0
+your family must be ashamed,0.924,0.714,competitive,1
+i hope you lose every game,0.778,0.504,all_chat,1
+i'll help you,0.163,0.122,casual,0
+nice try!,0.107,0.886,all_chat,0
+nice shot!,0.028,0.453,team_chat,0
+you're retarded,0.799,0.585,post_game,1
+too easy,0.268,0.157,casual,0
+enemy spotted,0.088,0.61,post_game,0
+too easy,0.512,0.395,team_chat,1
+follow me,0.062,0.53,post_game,0
+great teamwork guys,0.132,0.669,all_chat,0
+i'll help you,0.167,0.529,all_chat,0
+trash team,0.964,0.112,casual,1
+destroyed you,0.561,0.884,competitive,1
+good defense,0.071,0.476,casual,0
+nice shot!,0.003,0.316,team_chat,0
+wait for team,0.173,0.056,pvp_combat,0
+stop feeding moron,0.984,0.983,competitive,1
+tryhard,0.271,0.028,pvp_combat,0
+that was fun,0.062,0.036,pvp_combat,0
+kill yourself,0.905,0.919,competitive,1
+add me as friend,0.096,0.799,all_chat,0
+let's regroup,0.092,0.787,all_chat,0
+owned,0.431,0.369,casual,0
+how are you still alive,0.861,0.7,competitive,1
+glhf everyone,0.023,0.746,post_game,0
+almost had it,0.111,0.979,competitive,0
+that was fun,0.169,0.288,casual,0
+cheater,0.52,0.995,competitive,1
+sweaty player,0.509,0.363,team_chat,1
+nice try!,0.118,0.028,pvp_combat,0
+uninstall the game noob,0.748,0.102,casual,1
+get cancer,0.98,0.635,team_chat,1
+you're retarded,0.874,0.037,pvp_combat,1
+trash team,0.73,0.822,all_chat,1
+die in a fire,0.831,0.554,all_chat,1
+owned,0.204,0.36,casual,0
+i hope you lose every game,0.767,0.495,casual,1
+how are you still alive,0.884,0.351,pvp_combat,1
+rematch?,0.117,0.267,casual,0
+you're trash,0.969,0.36,casual,1
+lets push together,0.069,0.801,competitive,0
+you suck so bad,0.764,0.714,post_game,1
+nice play,0.122,0.414,casual,0
+that was close,0.164,0.416,team_chat,0
+end your life,0.746,0.374,casual,1
+we can do this,0.153,0.616,all_chat,0
+stupid noob,0.773,0.125,pvp_combat,1
+you don't deserve to play,0.92,0.276,pvp_combat,1
+you suck so bad,0.841,0.203,casual,1
+let's try again,0.194,0.35,team_chat,0
+smashed you,0.662,0.309,team_chat,1
+why so serious,0.519,0.496,team_chat,1
+kill yourself,0.924,0.31,team_chat,1
+kill yourself,0.883,0.254,casual,1
+you're a waste of space,0.984,0.584,all_chat,1
+follow me,0.044,0.61,all_chat,0
+watch out behind you,0.012,0.362,pvp_combat,0
+that was fun,0.046,0.831,all_chat,0
+glhf everyone,0.17,0.112,pvp_combat,0
+cover me please,0.048,0.268,pvp_combat,0
+good call,0.109,0.396,pvp_combat,0
+too easy,0.694,0.618,all_chat,1
+you suck so bad,0.787,0.221,casual,1
+nice try!,0.086,0.281,pvp_combat,0
+that was close,0.19,0.242,pvp_combat,0
+let's regroup,0.056,0.682,all_chat,0
+you suck so bad,0.746,0.334,casual,1
+end your life,0.975,0.816,all_chat,1
+enemy spotted,0.03,0.502,team_chat,0
+tryhard,0.711,0.885,competitive,1
+your family must be ashamed,0.966,0.359,casual,1
+stop feeding moron,0.964,0.784,post_game,1
+that was close,0.088,0.788,post_game,0
+tryhard,0.318,0.17,pvp_combat,0
+nice save,0.137,0.489,casual,0
+thanks for the game,0.049,0.626,post_game,0
+need backup,0.029,0.469,post_game,0
+reported,0.587,0.522,team_chat,1
+go back to tutorial,0.803,0.448,post_game,1
+nice save,0.105,0.884,all_chat,0
+watch out behind you,0.136,0.798,competitive,0
+stop feeding moron,0.851,0.361,team_chat,1
+gg well played team!,0.009,0.098,pvp_combat,0
+thanks for heal,0.055,0.133,pvp_combat,0
+need backup,0.063,0.645,post_game,0
+need backup,0.076,0.676,all_chat,0
+good luck have fun,0.167,1.0,competitive,0
+gg well played team!,0.112,0.36,casual,0
+absolute garbage player,0.819,0.272,pvp_combat,1
+cover me please,0.081,0.267,casual,0
+stop camping,0.585,0.549,post_game,1
+gg well played team!,0.06,0.643,competitive,0
+you suck so bad,0.979,0.486,post_game,1
+how are you this bad,0.817,0.779,competitive,1
+how are you this bad,0.873,0.259,casual,1
+good defense,0.035,0.615,team_chat,0
+that was fun,0.194,0.801,competitive,0
+your family must be ashamed,0.781,0.244,casual,1
+get cancer,0.957,0.696,competitive,1
+great teamwork guys,0.012,0.961,competitive,0
+go back to tutorial,0.982,0.4,casual,1
+nice save,0.072,0.194,pvp_combat,0
+rematch?,0.177,0.096,pvp_combat,0
+nice try!,0.061,0.449,team_chat,0
+delete this game idiot,0.851,0.355,casual,1
+nice save,0.073,0.247,casual,0
+i hope you lose every game,0.789,0.219,pvp_combat,1
+nice hacks,0.307,0.465,casual,0
+great teamwork guys,0.093,0.462,team_chat,0
+your family must be ashamed,0.831,0.334,team_chat,1
+destroyed you,0.6,0.757,post_game,1
+nice try!,0.192,0.835,competitive,0
+i'll kill you,0.566,0.647,post_game,1
+great teamwork guys,0.13,0.499,team_chat,0
+you suck so bad,0.813,0.512,post_game,1
+brain dead player,0.903,0.62,team_chat,1
+good call,0.091,0.679,post_game,0
+you suck so bad,0.771,0.53,post_game,1
+nice try!,0.133,0.451,team_chat,0
+great teamwork guys,0.168,0.234,casual,0
+reported for being bad,0.902,0.53,all_chat,1
+reported for being bad,0.82,0.509,post_game,1
+absolute garbage player,0.814,0.653,team_chat,1
+uninstall you monkey,0.862,0.719,all_chat,1
+reported,0.708,0.808,all_chat,1
+nice play,0.155,0.608,all_chat,0
+rematch?,0.091,0.158,casual,0
+die in a fire,0.875,0.628,competitive,1
+glhf everyone,0.161,0.785,post_game,0
+you don't deserve to play,0.793,0.384,casual,1
+cheater,0.663,0.602,post_game,1
+you got lucky,0.668,0.722,competitive,1
+sweaty player,0.36,0.223,casual,0
+wait for team,0.039,0.904,competitive,0
+kys noob,0.943,0.664,post_game,1
+get rekt,0.301,0.237,pvp_combat,0
+how are you this bad,0.751,0.746,all_chat,1
+you don't deserve to play,0.814,0.701,competitive,1
+how are you this bad,0.761,0.613,competitive,1
+you're dead,0.535,0.571,team_chat,1
+you're dead,0.763,0.428,team_chat,1
+that was close,0.122,0.646,competitive,0
+glhf everyone,0.042,0.635,all_chat,0
+reported for being bad,0.992,0.507,team_chat,1
+gg well played team!,0.051,0.52,team_chat,0
+you're throwing the game,0.836,0.586,all_chat,1
+too easy,0.485,0.477,casual,0
+kill yourself,0.734,0.654,post_game,1
+nice shot!,0.057,0.353,casual,0
+wait for team,0.048,0.658,post_game,0
+uninstall the game noob,0.867,0.906,competitive,1
+good defense,0.023,0.844,competitive,0
+let's regroup,0.145,0.082,pvp_combat,0
+pathetic loser,0.966,0.201,pvp_combat,1
+good game everyone,0.195,0.717,competitive,0
+add me as friend,0.097,0.57,all_chat,0
+follow me,0.03,0.193,pvp_combat,0
+good call,0.148,0.18,pvp_combat,0
+nice hacks,0.341,0.016,pvp_combat,0
+gg well played team!,0.1,0.37,casual,0
+your family must be ashamed,0.979,0.5,team_chat,1
+cover me please,0.008,0.032,pvp_combat,0
+how are you still alive,0.916,0.429,casual,1
+great teamwork guys,0.115,0.81,all_chat,0
+wp wp,0.044,0.548,team_chat,0
+you're trash,0.973,0.706,all_chat,1
+stupid noob,0.778,0.289,casual,1
+lets push together,0.006,0.472,post_game,0
+we can do this,0.096,0.686,team_chat,0
+wait for team,0.015,0.512,team_chat,0
+stop feeding moron,0.704,0.31,casual,1
+go back to tutorial,0.739,0.938,competitive,1
+good luck have fun,0.139,0.48,post_game,0
+i hope you lose every game,0.756,0.073,pvp_combat,1
+destroyed you,0.324,0.181,casual,0
+ez noob,0.642,0.718,all_chat,1
+you suck so bad,0.816,0.89,competitive,1
+nice shot!,0.009,0.78,all_chat,0
+add me as friend,0.114,0.525,team_chat,0
+good defense,0.009,0.289,casual,0
+delete this game idiot,0.735,0.684,team_chat,1
+it's just a game,0.265,0.458,casual,0
+it's just a game,0.562,0.83,competitive,1
+you're trash,0.746,0.609,competitive,1
+tryhard,0.561,0.717,post_game,1
+i'll help you,0.139,0.472,casual,0
+let's try again,0.123,0.662,all_chat,0
+nice hacks,0.641,0.508,all_chat,1
+end your life,0.881,0.649,post_game,1
+you're a waste of space,0.861,0.531,team_chat,1
+thanks for the game,0.055,0.406,casual,0
+enemy spotted,0.144,0.764,competitive,0
+wp wp,0.009,0.228,pvp_combat,0
+you're retarded,0.896,0.161,pvp_combat,1
+watch out behind you,0.02,0.691,post_game,0
+ez noob,0.794,0.634,team_chat,1
+nice play,0.156,0.837,competitive,0
+nice kill,0.117,0.434,post_game,0
+get cancer,0.735,0.314,pvp_combat,1
+nice play,0.183,0.765,competitive,0
+how are you this bad,0.836,0.355,team_chat,1
+you're throwing the game,0.985,0.803,all_chat,1
+reported for being bad,0.917,0.984,competitive,1
+lets push together,0.139,0.604,team_chat,0
+camper noob,0.503,0.604,competitive,1
+kys noob,0.881,0.855,competitive,1
+absolute garbage player,0.781,0.88,competitive,1
+good game everyone,0.025,0.733,competitive,0
+thanks for heal,0.042,0.629,all_chat,0
+reported for being bad,0.872,0.57,all_chat,1
+kill yourself,0.925,0.596,all_chat,1
+why so serious,0.415,0.212,pvp_combat,0
+sit down,0.26,0.145,pvp_combat,0
+nice save,0.07,0.697,team_chat,0
+almost had it,0.145,0.486,casual,0
+good game everyone,0.157,0.498,team_chat,0
+let's regroup,0.18,0.529,team_chat,0
+lets push together,0.012,0.653,all_chat,0
+die in a fire,0.989,0.719,all_chat,1
+end your life,0.95,0.415,team_chat,1
+let's try again,0.02,0.196,casual,0
+follow me,0.038,0.518,post_game,0
+nice kill,0.15,0.734,all_chat,0
+worst player ever,0.899,0.431,team_chat,1
+let's try again,0.081,0.591,post_game,0
+i hope you lose every game,0.947,0.123,casual,1
+pathetic loser,0.765,0.525,post_game,1
+brain dead player,0.906,0.532,all_chat,1
+good game everyone,0.162,0.646,post_game,0
+kys noob,0.754,0.693,competitive,1
+thanks for the game,0.05,0.134,casual,0
+enemy spotted,0.148,0.49,post_game,0
+pathetic loser,0.957,0.923,competitive,1
+you're trash,0.79,0.14,casual,1
+nice kill,0.17,0.46,casual,0
+you suck so bad,0.75,0.813,competitive,1
+how are you this bad,0.994,0.047,pvp_combat,1
+worst player ever,0.884,0.664,all_chat,1
+cheater,0.204,0.247,casual,0
+nice play,0.088,0.504,team_chat,0
+brain dead player,0.746,0.663,post_game,1
+nice play,0.101,0.44,post_game,0
+that was close,0.07,0.526,post_game,0
+need backup,0.121,0.075,pvp_combat,0
+wp wp,0.011,0.493,post_game,0
+great teamwork guys,0.159,0.913,competitive,0
+almost had it,0.153,0.794,competitive,0
+die in a fire,0.777,0.849,competitive,1
+nice try!,0.137,0.092,pvp_combat,0
+reported,0.719,0.776,all_chat,1
+good defense,0.04,0.7,competitive,0
+nice play,0.05,0.177,pvp_combat,0
+i hope you lose every game,0.987,0.814,competitive,1
+destroyed you,0.291,0.126,casual,0
+let's try again,0.127,0.329,pvp_combat,0
+thanks for the game,0.055,0.532,all_chat,0
+let's try again,0.099,0.709,all_chat,0
+stop camping,0.767,0.627,team_chat,1
+go back to tutorial,0.768,0.482,team_chat,1
+glhf everyone,0.021,0.764,all_chat,0
+nice play,0.173,0.631,all_chat,0
+reported for being bad,0.907,0.72,post_game,1
+that was fun,0.083,0.333,pvp_combat,0
+i hope you get banned,0.754,0.641,all_chat,1
+delete this game idiot,0.708,0.847,competitive,1
+great teamwork guys,0.154,0.134,pvp_combat,0
+cover me please,0.077,0.495,team_chat,0
+need backup,0.095,0.413,casual,0
+wp wp,0.107,0.248,casual,0
+nice save,0.022,0.747,competitive,0
+you don't deserve to play,0.955,0.421,post_game,1
+that was fun,0.081,0.606,post_game,0
+stupid noob,0.975,0.527,all_chat,1
+absolute garbage player,0.867,0.662,competitive,1
+nice save,0.016,0.554,team_chat,0
+enemy spotted,0.014,0.191,casual,0
+i hope you get banned,0.964,0.622,competitive,1
+add me as friend,0.092,0.67,team_chat,0
+glhf everyone,0.19,0.477,post_game,0
+lets push together,0.173,0.615,post_game,0
+thanks for heal,0.132,0.503,all_chat,0
+that was fun,0.109,0.113,casual,0
+glhf everyone,0.013,0.324,pvp_combat,0
+how are you still alive,0.802,0.42,post_game,1
+glhf everyone,0.037,0.101,pvp_combat,0
+uninstall you monkey,0.777,0.145,casual,1
+hacker,0.271,0.437,casual,0
+ez noob,0.629,0.516,team_chat,1
+enemy spotted,0.11,0.703,post_game,0
+thanks for the game,0.158,0.601,competitive,0
+good luck have fun,0.083,0.046,pvp_combat,0
+good defense,0.073,0.195,casual,0
+enemy spotted,0.032,0.605,competitive,0
+it's just a game,0.729,0.781,competitive,1
+nice kill,0.185,0.036,pvp_combat,0
+good luck have fun,0.141,0.444,casual,0
+uninstall you monkey,0.745,0.437,team_chat,1
+i'll help you,0.06,0.141,casual,0
+you're retarded,0.775,0.948,competitive,1
+good call,0.124,0.752,competitive,0
+reported for being bad,0.88,0.855,competitive,1
+kill yourself,0.765,0.997,competitive,1
+nice shot!,0.137,0.815,all_chat,0
+cover me please,0.008,0.488,team_chat,0
+glhf everyone,0.184,0.688,competitive,0
+thanks for heal,0.015,0.079,pvp_combat,0
+nice save,0.147,0.407,team_chat,0
+i'll help you,0.015,0.163,pvp_combat,0
+i hope you get banned,0.882,0.617,post_game,1
+you're useless,0.749,0.408,post_game,1
+destroyed you,0.347,0.294,pvp_combat,0
+need backup,0.155,0.459,post_game,0
+you don't deserve to play,0.934,0.799,all_chat,1
+i'll help you,0.007,0.733,all_chat,0
+i hope you lose every game,0.788,0.276,pvp_combat,1
+wp wp,0.111,0.573,post_game,0
+that was fun,0.053,0.806,all_chat,0
+your family must be ashamed,0.706,0.962,competitive,1
+glhf everyone,0.187,0.759,competitive,0
+your family must be ashamed,0.794,0.622,competitive,1
+follow me,0.149,0.646,team_chat,0
+lets push together,0.138,0.87,all_chat,0
+reported for being bad,0.805,0.463,casual,1
+too easy,0.581,0.357,team_chat,1
+nice shot!,0.189,0.612,team_chat,0
+enemy spotted,0.145,0.898,competitive,0
+cheater,0.362,0.322,casual,0
+gg well played team!,0.197,0.871,all_chat,0
+brain dead player,0.856,0.794,post_game,1
+nice shot!,0.028,0.489,casual,0
+thanks for the game,0.003,0.536,team_chat,0
+good call,0.107,0.466,casual,0
+why so serious,0.236,0.3,casual,0
+watch out behind you,0.135,0.787,post_game,0
+follow me,0.122,0.45,team_chat,0
+thanks for the game,0.086,0.123,pvp_combat,0
+camper noob,0.695,0.516,team_chat,1
+your family must be ashamed,0.919,0.788,post_game,1
+you're dead,0.702,0.978,competitive,1
+that was close,0.165,0.484,team_chat,0
+how are you this bad,0.914,0.357,casual,1
+you're throwing the game,0.766,0.128,casual,1
+thanks for the game,0.162,0.534,all_chat,0
+die in a fire,0.768,0.408,team_chat,1
+die in a fire,0.784,0.375,team_chat,1
+we can do this,0.163,0.431,team_chat,0
+enemy spotted,0.188,0.724,all_chat,0
+thanks for heal,0.139,0.072,pvp_combat,0
+kys noob,0.974,0.867,all_chat,1
+good game everyone,0.149,0.859,all_chat,0
+i hope you get banned,0.765,0.289,pvp_combat,1
+that was close,0.158,0.675,team_chat,0
+add me as friend,0.114,0.585,post_game,0
+get cancer,0.783,0.259,casual,1
+lets push together,0.169,0.674,post_game,0
+wp wp,0.162,0.788,post_game,0
+i'll help you,0.116,0.688,competitive,0
+stop feeding moron,0.936,0.6,all_chat,1
+let's try again,0.051,0.358,pvp_combat,0
+good luck have fun,0.068,0.652,competitive,0
+nice kill,0.151,0.21,pvp_combat,0
+stop feeding moron,0.84,0.041,pvp_combat,1
+lets push together,0.04,0.083,pvp_combat,0
+pathetic loser,0.932,0.756,post_game,1
+why so serious,0.737,0.709,competitive,1
+ez noob,0.761,0.595,team_chat,1
+you're a waste of space,0.722,0.127,casual,1
+that was close,0.175,0.254,pvp_combat,0
+stupid noob,0.968,0.457,post_game,1
+nice shot!,0.047,0.247,casual,0
+watch out behind you,0.089,0.337,team_chat,0
+great teamwork guys,0.005,0.722,all_chat,0
+great teamwork guys,0.062,0.588,post_game,0
+follow me,0.077,0.822,competitive,0
+why so serious,0.75,0.38,team_chat,1
+nice play,0.129,0.024,pvp_combat,0
+how are you still alive,0.885,0.657,all_chat,1
+i'll kill you,0.28,0.266,pvp_combat,0
+rematch?,0.118,0.38,casual,0
+good defense,0.055,0.694,all_chat,0
+you don't deserve to play,0.993,0.307,casual,1
+you're throwing the game,0.868,0.502,post_game,1
+smashed you,0.221,0.014,pvp_combat,0
+get rekt,0.534,0.521,all_chat,1
+thanks for heal,0.105,0.875,competitive,0
+nice kill,0.145,0.596,team_chat,0
+go back to tutorial,0.841,0.737,competitive,1
+nice kill,0.048,0.979,competitive,0
+nice try!,0.197,0.94,competitive,0
+i hope you get banned,0.866,0.38,team_chat,1
+it's just a game,0.519,0.634,team_chat,1
+you're retarded,0.933,0.427,casual,1
+destroyed you,0.637,0.657,team_chat,1
+let's try again,0.108,0.967,competitive,0
+how are you still alive,0.831,0.707,competitive,1
+good call,0.116,0.229,casual,0
+need backup,0.136,0.414,post_game,0
+nice try!,0.007,0.367,pvp_combat,0
+kys noob,0.71,0.337,pvp_combat,1
+get cancer,0.743,0.928,competitive,1
+stop feeding moron,0.774,0.585,team_chat,1
+reported for being bad,0.713,0.665,team_chat,1
+wait for team,0.103,0.828,all_chat,0
+need backup,0.13,0.54,post_game,0
+gg well played team!,0.035,0.635,team_chat,0
+good game everyone,0.124,0.663,post_game,0
+neck yourself,0.828,0.626,competitive,1
+your family must be ashamed,0.74,0.36,casual,1
+how are you still alive,1.0,0.662,post_game,1
+you don't deserve to play,0.889,0.527,post_game,1
+your family must be ashamed,0.99,0.725,all_chat,1
+cover me please,0.126,0.582,post_game,0
+add me as friend,0.154,0.523,post_game,0
+i hope you get banned,0.902,0.719,post_game,1
+good luck have fun,0.114,0.244,pvp_combat,0
+let's try again,0.074,0.568,team_chat,0
+that was fun,0.174,0.79,competitive,0
+good call,0.14,0.749,post_game,0
+thanks for heal,0.092,0.372,pvp_combat,0
+how are you still alive,0.764,0.632,all_chat,1
+we can do this,0.115,0.366,team_chat,0
+gg well played team!,0.073,0.68,team_chat,0
+glhf everyone,0.128,0.586,post_game,0
+you're retarded,0.971,0.585,all_chat,1
+we can do this,0.167,0.617,post_game,0
+wp wp,0.176,0.596,all_chat,0
+nice try!,0.167,0.625,competitive,0
+camper noob,0.522,0.565,all_chat,1
+nice try!,0.006,0.523,all_chat,0
+your family must be ashamed,0.838,0.271,casual,1
+wp wp,0.043,0.78,post_game,0
+that was close,0.083,0.125,pvp_combat,0
+how are you this bad,0.8,0.698,post_game,1
+follow me,0.174,0.786,post_game,0
+i'll help you,0.091,0.58,all_chat,0
+rematch?,0.095,0.491,team_chat,0
+it's just a game,0.487,0.149,casual,0
+stop feeding moron,0.805,0.185,casual,1
+add me as friend,0.132,0.653,competitive,0
+thanks for heal,0.098,0.784,post_game,0
+ez noob,0.663,0.901,competitive,1
+you don't deserve to play,0.94,0.435,post_game,1
+kill yourself,0.947,0.77,post_game,1
+owned,0.328,0.322,pvp_combat,0
+good defense,0.165,0.05,pvp_combat,0
+delete this game idiot,0.871,0.874,competitive,1
+let's regroup,0.135,0.787,post_game,0
+delete this game idiot,0.85,0.468,team_chat,1
+cover me please,0.122,0.069,pvp_combat,0
+nice save,0.074,0.285,pvp_combat,0
+good call,0.095,0.476,post_game,0
+wait for team,0.126,0.702,post_game,0
+uninstall the game noob,0.871,0.663,post_game,1
+great teamwork guys,0.136,0.9,competitive,0
+cover me please,0.087,0.788,post_game,0
+cheater,0.468,0.262,pvp_combat,0
+camper noob,0.281,0.42,casual,0
+good call,0.093,0.771,all_chat,0
+rematch?,0.162,0.795,post_game,0
+almost had it,0.123,0.91,competitive,0
+owned,0.567,0.674,all_chat,1
+you're a waste of space,0.99,0.281,pvp_combat,1
+how are you this bad,0.733,0.647,post_game,1
+you're throwing the game,0.797,0.51,post_game,1
+get cancer,0.962,0.191,casual,1
+trash team,0.88,0.664,competitive,1
+nice hacks,0.432,0.423,casual,0
+i hope you lose every game,0.769,0.716,post_game,1
+go back to tutorial,0.843,0.664,team_chat,1
+nice play,0.135,0.77,competitive,0
+follow me,0.158,0.124,pvp_combat,0
+get cancer,0.919,0.578,team_chat,1
+die in a fire,0.797,0.487,casual,1
+die in a fire,0.705,0.454,casual,1
+great teamwork guys,0.048,0.338,casual,0
+you're a waste of space,0.81,0.31,pvp_combat,1
+uninstall the game noob,0.993,0.793,competitive,1
+rematch?,0.145,0.035,pvp_combat,0
+reported for being bad,0.831,0.565,team_chat,1
+wait for team,0.056,0.623,team_chat,0
+nice try!,0.199,0.504,team_chat,0
+good game everyone,0.041,0.652,competitive,0
+i'll kill you,0.462,0.271,casual,0
+uninstall you monkey,0.901,0.305,team_chat,1
+great teamwork guys,0.174,0.837,all_chat,0
+your family must be ashamed,0.962,0.809,competitive,1
+enemy spotted,0.05,0.658,all_chat,0
+pathetic loser,0.889,0.484,casual,1
+why so serious,0.249,0.338,pvp_combat,0
+follow me,0.09,0.712,competitive,0
+you're throwing the game,0.945,0.695,all_chat,1
+that was fun,0.076,0.501,post_game,0
+good luck have fun,0.149,0.433,team_chat,0
+you're useless,0.904,0.62,all_chat,1
+thanks for the game,0.051,0.541,team_chat,0
+die in a fire,0.76,0.602,all_chat,1
+nice kill,0.022,0.633,post_game,0
+worst player ever,0.956,0.148,casual,1
+let's try again,0.098,0.022,pvp_combat,0
+pathetic loser,0.861,0.469,casual,1
+add me as friend,0.112,0.915,competitive,0
+uninstall you monkey,0.95,0.505,all_chat,1
+uninstall you monkey,0.925,0.785,competitive,1
+get rekt,0.743,0.699,all_chat,1
+almost had it,0.163,0.187,casual,0
+you're a waste of space,0.997,0.838,all_chat,1
+uninstall you monkey,0.71,0.387,pvp_combat,1
+add me as friend,0.075,0.179,casual,0
+stop feeding moron,0.94,0.526,all_chat,1
+good defense,0.04,0.464,casual,0
+rematch?,0.016,0.73,all_chat,0
+camper noob,0.671,0.313,team_chat,1
+smashed you,0.692,0.754,competitive,1
+uninstall you monkey,0.707,0.194,casual,1
+go back to tutorial,0.746,0.343,team_chat,1
+i'll help you,0.007,0.126,pvp_combat,0
+wait for team,0.128,0.117,pvp_combat,0
+you're dead,0.778,0.458,post_game,1
+let's try again,0.121,0.387,casual,0
+stop camping,0.573,0.666,competitive,1
+rematch?,0.116,0.576,all_chat,0
+thanks for the game,0.143,0.43,post_game,0
+great teamwork guys,0.053,0.356,team_chat,0
+you're trash,0.887,0.505,all_chat,1
+your family must be ashamed,0.824,0.639,all_chat,1
+absolute garbage player,0.99,0.467,post_game,1
+need backup,0.179,0.112,casual,0
+nice hacks,0.758,0.967,competitive,1
+stop camping,0.46,0.149,casual,0
+add me as friend,0.067,0.251,casual,0
+die in a fire,0.829,0.786,post_game,1
+good luck have fun,0.119,0.968,competitive,0
+kill yourself,0.792,0.82,competitive,1
+thanks for the game,0.127,0.565,all_chat,0
+need backup,0.107,0.637,post_game,0
+reported for being bad,0.826,0.966,competitive,1
+that was fun,0.187,0.36,pvp_combat,0
+delete this game idiot,0.856,0.664,competitive,1
+enemy spotted,0.117,0.36,pvp_combat,0
+that was fun,0.074,0.134,casual,0
+i hope you get banned,0.762,0.532,post_game,1
+we can do this,0.153,0.647,post_game,0
+you got lucky,0.677,0.525,all_chat,1
+sit down,0.4,0.377,casual,0
+nice hacks,0.258,0.223,pvp_combat,0
+stop camping,0.69,0.434,post_game,1
+rematch?,0.181,0.432,post_game,0
+i'll help you,0.079,0.843,all_chat,0
+add me as friend,0.07,0.127,casual,0
+watch out behind you,0.017,0.704,competitive,0
+camper noob,0.598,0.612,team_chat,1
+enemy spotted,0.023,0.647,all_chat,0
+cover me please,0.138,0.197,casual,0
+kill yourself,0.934,0.289,pvp_combat,1
+you got lucky,0.63,0.922,competitive,1
+absolute garbage player,0.855,0.546,team_chat,1
+uninstall you monkey,0.927,0.004,pvp_combat,1
+get cancer,0.819,0.003,pvp_combat,1
+watch out behind you,0.119,0.02,pvp_combat,0
+owned,0.283,0.048,pvp_combat,0
+your family must be ashamed,0.886,0.124,casual,1
+uninstall you monkey,0.778,0.705,competitive,1
+destroyed you,0.674,0.898,competitive,1
+you suck so bad,0.785,0.586,team_chat,1
+let's try again,0.178,0.593,team_chat,0
+nice shot!,0.054,0.685,post_game,0
+how are you this bad,0.75,0.119,pvp_combat,1
+that was fun,0.049,0.563,all_chat,0
+nice try!,0.081,0.422,team_chat,0
+nice try!,0.084,0.389,pvp_combat,0
+delete this game idiot,0.726,0.812,all_chat,1
+good game everyone,0.135,0.828,all_chat,0
+follow me,0.039,0.64,all_chat,0
+trash team,0.745,0.071,pvp_combat,1
+we can do this,0.092,0.768,all_chat,0
+owned,0.781,0.852,all_chat,1
+stupid noob,0.961,0.365,team_chat,1
+glhf everyone,0.036,0.442,team_chat,0
+you got lucky,0.74,0.648,post_game,1
+too easy,0.293,0.192,pvp_combat,0
+reported,0.789,0.671,post_game,1
+great teamwork guys,0.038,0.525,post_game,0
+good defense,0.016,0.274,casual,0
+lets push together,0.065,0.348,pvp_combat,0
+lets push together,0.106,1.0,competitive,0
+brain dead player,0.812,0.778,competitive,1
+destroyed you,0.58,0.686,competitive,1
+you're retarded,0.775,0.451,casual,1
+destroyed you,0.32,0.057,pvp_combat,0
+we can do this,0.148,0.79,all_chat,0
+delete this game idiot,0.709,0.243,casual,1
+glhf everyone,0.193,0.442,post_game,0
+wait for team,0.127,0.177,pvp_combat,0
+you're throwing the game,0.876,0.207,pvp_combat,1
+kys noob,0.773,0.232,pvp_combat,1
+wp wp,0.188,0.252,casual,0
+cheater,0.448,0.313,casual,0
+almost had it,0.17,0.063,pvp_combat,0
+end your life,0.727,0.155,pvp_combat,1
+i'll help you,0.199,0.394,pvp_combat,0
+i'll help you,0.029,0.669,team_chat,0
+almost had it,0.038,0.38,pvp_combat,0
+die in a fire,0.729,0.234,casual,1
+stop feeding moron,0.835,0.481,team_chat,1
+sit down,0.255,0.314,casual,0
+nice play,0.055,0.132,pvp_combat,0
+i'll help you,0.12,0.343,casual,0
+nice hacks,0.224,0.11,pvp_combat,0
+nice save,0.147,0.489,casual,0
+nice shot!,0.064,0.326,team_chat,0
+add me as friend,0.032,0.621,team_chat,0
+nice hacks,0.622,0.506,team_chat,1
+get rekt,0.749,0.845,competitive,1
+reported for being bad,0.721,0.274,pvp_combat,1
+you don't deserve to play,0.888,0.295,pvp_combat,1
+lets push together,0.005,0.829,competitive,0
+we can do this,0.151,0.138,pvp_combat,0
+let's try again,0.1,0.787,competitive,0
+thanks for heal,0.151,0.557,team_chat,0
+lets push together,0.09,0.037,pvp_combat,0
+need backup,0.127,0.546,team_chat,0
+smashed you,0.553,0.763,all_chat,1
+neck yourself,0.824,0.435,casual,1
+nice try!,0.054,0.857,all_chat,0
+brain dead player,0.71,0.37,pvp_combat,1
+follow me,0.023,0.676,competitive,0
+reported,0.217,0.015,pvp_combat,0
+good call,0.07,0.588,team_chat,0
+cheater,0.254,0.003,pvp_combat,0
+how are you still alive,0.996,0.948,competitive,1
+you're a waste of space,0.729,0.47,post_game,1
+wait for team,0.112,0.79,post_game,0
+that was fun,0.07,0.166,pvp_combat,0
+nice save,0.107,0.751,all_chat,0
+you're a waste of space,0.861,0.14,pvp_combat,1
+worst player ever,0.852,0.727,post_game,1
+kill yourself,0.919,0.984,competitive,1
+you're trash,0.804,0.642,all_chat,1
+gg well played team!,0.082,0.193,casual,0
+wp wp,0.141,0.258,casual,0
+you're useless,0.824,0.793,competitive,1
+stupid noob,0.895,0.67,competitive,1
+nice save,0.053,0.5,post_game,0
+follow me,0.05,0.607,all_chat,0
+that was close,0.016,0.832,all_chat,0
+worst player ever,0.96,0.423,casual,1
+cheater,0.547,0.625,post_game,1
+wait for team,0.122,0.749,post_game,0
+nice hacks,0.754,0.499,team_chat,1
+too easy,0.582,0.565,all_chat,1
+add me as friend,0.188,0.225,pvp_combat,0
+brain dead player,0.794,0.217,casual,1
+brain dead player,0.764,0.509,all_chat,1
+almost had it,0.157,0.101,casual,0
+we can do this,0.093,0.807,all_chat,0
+i'll help you,0.09,0.473,post_game,0
+that was fun,0.196,0.524,all_chat,0
+owned,0.624,0.858,competitive,1
+watch out behind you,0.118,0.47,team_chat,0
+you're throwing the game,0.942,0.467,post_game,1
+let's try again,0.063,0.648,post_game,0
+nice shot!,0.074,0.166,casual,0
+good call,0.102,0.113,pvp_combat,0
+neck yourself,0.992,0.595,team_chat,1
+absolute garbage player,0.9,0.489,team_chat,1
+lets push together,0.178,0.64,team_chat,0
+rematch?,0.176,0.789,competitive,0
+great teamwork guys,0.105,0.377,team_chat,0
+enemy spotted,0.091,0.601,all_chat,0
+reported,0.226,0.369,casual,0
+neck yourself,0.772,0.322,pvp_combat,1
+get cancer,0.954,0.71,all_chat,1
+i'll help you,0.019,0.167,casual,0
+nice kill,0.005,0.271,casual,0
+wp wp,0.011,0.667,competitive,0
+tryhard,0.798,0.771,all_chat,1
+cheater,0.667,0.782,all_chat,1
+you're useless,0.884,0.229,pvp_combat,1
+delete this game idiot,0.962,0.644,all_chat,1
+glhf everyone,0.02,0.439,post_game,0
+you're trash,0.866,0.657,competitive,1
+too easy,0.561,0.46,post_game,1
+how are you still alive,0.894,0.657,competitive,1
+neck yourself,0.819,0.042,pvp_combat,1
+end your life,0.913,0.802,all_chat,1
+almost had it,0.112,0.677,team_chat,0
+kill yourself,0.738,0.341,pvp_combat,1
+die in a fire,0.996,0.754,all_chat,1
+uninstall the game noob,0.757,0.559,post_game,1
+wp wp,0.162,0.624,competitive,0
+stop camping,0.382,0.131,pvp_combat,0
+glhf everyone,0.057,0.317,casual,0
+wait for team,0.124,0.751,competitive,0
+cover me please,0.074,0.812,competitive,0
+good defense,0.163,0.49,casual,0
+rematch?,0.064,0.692,team_chat,0
+i'll help you,0.066,0.689,competitive,0
+i hope you lose every game,0.797,0.636,competitive,1
+lets push together,0.07,0.628,all_chat,0
+hacker,0.676,0.329,team_chat,1
+cover me please,0.021,0.456,post_game,0
+good defense,0.121,0.075,pvp_combat,0
+kys noob,0.909,0.366,casual,1
+uninstall the game noob,0.838,0.355,team_chat,1
+good game everyone,0.158,0.781,all_chat,0
+watch out behind you,0.059,0.753,post_game,0
+thanks for heal,0.109,0.745,all_chat,0
+you're useless,0.84,0.308,casual,1
+need backup,0.151,0.277,casual,0
+good game everyone,0.166,0.352,team_chat,0
+nice try!,0.019,0.629,post_game,0
+reported for being bad,0.93,0.202,casual,1
+almost had it,0.125,0.819,competitive,0
+ez noob,0.523,0.584,post_game,1
+that was close,0.037,0.548,post_game,0
+nice shot!,0.135,0.462,team_chat,0
+great teamwork guys,0.081,0.569,all_chat,0
+nice save,0.182,0.999,competitive,0
+add me as friend,0.197,0.043,pvp_combat,0
+nice shot!,0.127,0.764,post_game,0
+wait for team,0.116,0.47,casual,0
+nice shot!,0.193,0.64,all_chat,0
+that was close,0.137,0.442,team_chat,0
+kys noob,0.791,0.56,post_game,1
+how are you still alive,0.876,0.193,pvp_combat,1
+reported for being bad,0.884,0.653,post_game,1
+stupid noob,0.871,0.384,casual,1
+i'll help you,0.084,0.391,casual,0
+stupid noob,0.936,0.687,team_chat,1
+owned,0.767,0.584,all_chat,1
+reported,0.788,0.403,post_game,1
+lets push together,0.042,0.621,all_chat,0
+enemy spotted,0.023,0.36,casual,0
+great teamwork guys,0.161,0.349,team_chat,0
+sweaty player,0.731,0.688,competitive,1
+end your life,0.895,0.15,pvp_combat,1
+follow me,0.166,0.796,competitive,0
+you're useless,0.715,0.322,team_chat,1
+end your life,0.817,0.558,all_chat,1
+kill yourself,0.769,0.453,post_game,1
+need backup,0.148,0.737,all_chat,0
+it's just a game,0.773,0.977,competitive,1
+let's regroup,0.065,0.509,post_game,0
+wp wp,0.078,0.335,casual,0
+end your life,0.936,0.644,competitive,1
+nice try!,0.107,0.44,casual,0
+you got lucky,0.594,0.64,post_game,1
+your family must be ashamed,0.742,0.262,pvp_combat,1
+nice save,0.131,0.33,team_chat,0
+rematch?,0.169,0.254,pvp_combat,0
+almost had it,0.041,0.132,casual,0
+good luck have fun,0.088,0.294,casual,0
+get rekt,0.281,0.243,casual,0
+let's regroup,0.026,0.631,all_chat,0
+nice kill,0.061,0.379,casual,0
+end your life,0.918,0.341,team_chat,1
+kys noob,0.79,0.76,competitive,1
+enemy spotted,0.121,0.459,team_chat,0
+nice kill,0.076,0.198,pvp_combat,0
+it's just a game,0.666,0.531,team_chat,1
+good defense,0.018,0.35,casual,0
+that was close,0.194,0.512,all_chat,0
+i hope you get banned,0.74,0.54,team_chat,1
+how are you still alive,0.801,0.089,pvp_combat,1
+good defense,0.174,0.121,casual,0
+sit down,0.598,0.642,post_game,1
+need backup,0.011,0.421,team_chat,0
+end your life,0.954,0.871,all_chat,1
+good call,0.131,0.267,pvp_combat,0
+trash team,0.836,0.947,competitive,1
+good call,0.011,0.65,all_chat,0
+cover me please,0.017,0.425,team_chat,0
+kys noob,0.788,0.619,team_chat,1
+that was close,0.125,0.38,casual,0
+thanks for heal,0.001,0.391,pvp_combat,0
+let's regroup,0.118,0.844,all_chat,0
+stupid noob,0.857,0.603,competitive,1
+how are you still alive,0.799,0.734,all_chat,1
+good game everyone,0.058,0.746,post_game,0
+let's regroup,0.092,0.389,pvp_combat,0
+nice play,0.11,0.624,post_game,0
+pathetic loser,0.742,0.754,competitive,1
+you don't deserve to play,0.948,0.351,pvp_combat,1
+you're throwing the game,0.967,0.393,team_chat,1
+neck yourself,0.854,0.464,post_game,1
+get cancer,0.931,0.531,post_game,1
+neck yourself,0.843,0.306,pvp_combat,1
+you're throwing the game,0.881,0.264,pvp_combat,1
+nice save,0.159,0.669,post_game,0
+smashed you,0.747,0.536,all_chat,1
+great teamwork guys,0.005,0.5,team_chat,0
+i'll kill you,0.382,0.487,casual,0
+it's just a game,0.718,0.774,post_game,1
+enemy spotted,0.059,0.377,team_chat,0
+uninstall you monkey,0.827,0.209,pvp_combat,1
+i'll help you,0.19,0.174,casual,0
+gg well played team!,0.171,0.752,competitive,0
+that was close,0.101,0.386,team_chat,0
+absolute garbage player,0.853,0.546,post_game,1
+you're useless,0.896,0.817,competitive,1
+nice play,0.074,0.799,post_game,0
+trash team,0.983,0.868,all_chat,1
+cover me please,0.053,0.994,competitive,0
+trash team,0.83,0.348,pvp_combat,1
+nice shot!,0.075,0.127,pvp_combat,0
+you're throwing the game,0.893,0.315,casual,1
+that was close,0.018,0.041,pvp_combat,0
+you're retarded,0.719,0.928,competitive,1
+lets push together,0.037,0.996,competitive,0
+nice hacks,0.566,0.604,team_chat,1
+good call,0.036,0.332,team_chat,0
+watch out behind you,0.058,0.189,pvp_combat,0
+good game everyone,0.161,0.507,post_game,0
+follow me,0.13,0.34,pvp_combat,0
+let's regroup,0.016,0.893,all_chat,0
+you got lucky,0.661,0.661,team_chat,1
+delete this game idiot,0.938,0.648,competitive,1
+uninstall you monkey,0.864,0.158,casual,1
+wp wp,0.169,0.669,competitive,0
+add me as friend,0.128,0.706,competitive,0
+glhf everyone,0.184,0.623,team_chat,0
+it's just a game,0.603,0.905,competitive,1
+almost had it,0.141,0.699,team_chat,0
+tryhard,0.536,0.624,competitive,1
+follow me,0.185,0.408,casual,0
+good call,0.172,0.377,team_chat,0
+good call,0.111,0.316,pvp_combat,0
+stop feeding moron,0.945,0.403,casual,1
+watch out behind you,0.143,0.569,post_game,0
+great teamwork guys,0.002,0.272,casual,0
+lets push together,0.073,0.372,team_chat,0
+cover me please,0.129,0.729,competitive,0
+you're retarded,0.702,0.06,pvp_combat,1
+absolute garbage player,0.713,0.324,team_chat,1
+add me as friend,0.174,0.851,all_chat,0
+delete this game idiot,0.973,0.16,casual,1
+good luck have fun,0.048,0.019,pvp_combat,0
+uninstall the game noob,0.766,0.493,post_game,1
+good call,0.094,0.447,team_chat,0
+ez noob,0.625,0.556,all_chat,1
+nice play,0.063,0.214,pvp_combat,0
+hacker,0.73,0.871,competitive,1
+good call,0.041,0.622,team_chat,0
+cheater,0.312,0.427,casual,0
+neck yourself,0.713,0.43,casual,1
+thanks for the game,0.095,0.303,team_chat,0
+wait for team,0.116,0.589,team_chat,0
+you're trash,0.94,0.662,competitive,1
+cheater,0.627,0.997,competitive,1
+tryhard,0.459,0.248,pvp_combat,0
+wp wp,0.101,0.685,all_chat,0
+that was fun,0.105,0.235,casual,0
+owned,0.594,0.394,team_chat,1
+camper noob,0.356,0.186,pvp_combat,0
+good defense,0.019,0.185,pvp_combat,0
+i hope you lose every game,0.969,0.684,all_chat,1
+kys noob,0.973,0.374,casual,1
+you're retarded,0.953,0.257,pvp_combat,1
+let's try again,0.146,0.717,post_game,0
+neck yourself,0.702,0.233,casual,1
+i'll help you,0.15,0.338,team_chat,0
+how are you this bad,0.779,0.04,pvp_combat,1
+pathetic loser,0.868,0.558,post_game,1
+nice shot!,0.151,0.061,pvp_combat,0
+gg well played team!,0.195,0.92,competitive,0
+neck yourself,0.98,0.937,competitive,1
+good luck have fun,0.12,0.541,all_chat,0
+good call,0.174,0.446,team_chat,0
+get rekt,0.509,0.568,team_chat,1
+good luck have fun,0.13,0.056,pvp_combat,0
+need backup,0.136,0.051,pvp_combat,0
+go back to tutorial,0.811,0.267,pvp_combat,1
+add me as friend,0.026,0.604,all_chat,0
+trash team,0.909,0.17,pvp_combat,1
+great teamwork guys,0.028,0.236,pvp_combat,0
+good call,0.162,0.41,post_game,0
+add me as friend,0.112,0.768,all_chat,0
+i'll kill you,0.686,0.763,post_game,1
+die in a fire,0.984,0.9,competitive,1
+enemy spotted,0.067,0.608,post_game,0
+get rekt,0.621,0.938,competitive,1
+nice play,0.015,0.118,pvp_combat,0
+nice play,0.049,0.628,post_game,0
+why so serious,0.562,0.634,competitive,1
+good luck have fun,0.089,0.27,casual,0
+i hope you lose every game,0.726,0.589,all_chat,1
+delete this game idiot,0.887,0.706,competitive,1
+reported for being bad,0.874,0.645,all_chat,1
+your family must be ashamed,0.775,0.276,pvp_combat,1
+you got lucky,0.236,0.298,pvp_combat,0
+nice play,0.18,0.448,post_game,0
+lets push together,0.163,0.906,competitive,0
+thanks for heal,0.109,0.515,all_chat,0
+you're a waste of space,0.947,0.104,casual,1
+why so serious,0.424,0.184,casual,0
+reported,0.585,0.588,all_chat,1
+nice play,0.113,0.62,post_game,0
+ez noob,0.525,0.598,post_game,1
+that was fun,0.13,0.65,team_chat,0
+nice save,0.148,0.407,post_game,0
+almost had it,0.15,0.231,pvp_combat,0
+thanks for the game,0.15,0.793,all_chat,0
+enemy spotted,0.154,0.34,casual,0
+nice kill,0.028,0.624,all_chat,0
+thanks for heal,0.035,0.399,pvp_combat,0
+end your life,0.877,0.627,post_game,1
+follow me,0.144,0.991,competitive,0
+you don't deserve to play,0.918,0.384,team_chat,1
+delete this game idiot,0.894,0.337,pvp_combat,1
+you suck so bad,0.738,0.427,team_chat,1
+enemy spotted,0.152,0.64,all_chat,0
+great teamwork guys,0.079,0.723,all_chat,0
+nice save,0.077,0.196,casual,0
+brain dead player,0.872,0.788,post_game,1
+get rekt,0.639,0.789,competitive,1
+follow me,0.092,0.315,pvp_combat,0
+glhf everyone,0.143,0.524,all_chat,0
+wp wp,0.063,0.225,pvp_combat,0
+hacker,0.544,0.605,post_game,1
+kys noob,0.86,0.627,post_game,1
+that was close,0.117,0.372,casual,0
+neck yourself,0.727,0.5,team_chat,1
+you're retarded,0.966,0.291,pvp_combat,1
+get rekt,0.769,0.778,all_chat,1
+nice shot!,0.047,0.468,casual,0
+uninstall the game noob,0.733,0.365,team_chat,1
+neck yourself,0.812,0.512,post_game,1
+you're dead,0.391,0.367,pvp_combat,0
+end your life,0.881,0.215,casual,1
+brain dead player,0.924,0.971,competitive,1
+you're trash,0.877,0.349,team_chat,1
+watch out behind you,0.191,0.498,post_game,0
+good call,0.035,0.447,casual,0
+gg well played team!,0.2,0.429,casual,0
+wait for team,0.164,0.543,all_chat,0
+you're useless,0.861,0.451,casual,1
+nice play,0.169,0.214,pvp_combat,0
+nice shot!,0.02,0.179,pvp_combat,0
+get cancer,0.717,0.556,team_chat,1
+watch out behind you,0.158,0.568,team_chat,0
+need backup,0.137,0.335,team_chat,0
+good call,0.174,0.579,team_chat,0
+good luck have fun,0.128,0.676,post_game,0
+you're useless,0.77,0.649,team_chat,1
+end your life,0.879,0.852,competitive,1
+good call,0.143,0.618,post_game,0
+your family must be ashamed,0.711,0.562,team_chat,1
+add me as friend,0.124,0.468,casual,0
+reported,0.66,0.875,all_chat,1
+you're useless,0.769,0.635,team_chat,1
+nice play,0.07,0.389,team_chat,0
+you're throwing the game,0.711,0.267,pvp_combat,1
+nice play,0.173,0.269,pvp_combat,0
+uninstall the game noob,0.951,0.371,team_chat,1
+great teamwork guys,0.067,0.555,all_chat,0
+gg well played team!,0.106,0.405,post_game,0
+i hope you get banned,0.993,0.562,team_chat,1
+stupid noob,0.737,0.583,post_game,1
+you don't deserve to play,0.853,0.928,competitive,1
+reported for being bad,0.853,0.14,casual,1
+die in a fire,0.949,0.205,casual,1
+nice kill,0.18,0.389,team_chat,0
+almost had it,0.163,0.546,post_game,0
+nice try!,0.035,0.307,casual,0
+how are you still alive,0.758,0.347,pvp_combat,1
+wp wp,0.151,0.541,team_chat,0
+uninstall the game noob,0.808,0.475,casual,1
+nice play,0.101,0.617,competitive,0
+you don't deserve to play,0.811,0.405,team_chat,1
+nice shot!,0.115,0.121,casual,0
+kys noob,0.788,0.314,team_chat,1
+too easy,0.284,0.055,pvp_combat,0
+i'll kill you,0.485,0.393,casual,0
+cover me please,0.157,0.349,casual,0
+you're a waste of space,0.82,0.159,pvp_combat,1
+watch out behind you,0.157,0.991,competitive,0
+it's just a game,0.332,0.142,casual,0
+ez noob,0.262,0.368,pvp_combat,0
+great teamwork guys,0.003,0.581,team_chat,0
+end your life,0.97,0.472,team_chat,1
+nice play,0.009,0.586,post_game,0
+delete this game idiot,0.956,0.643,team_chat,1
+you're dead,0.208,0.199,pvp_combat,0
+neck yourself,0.792,0.784,all_chat,1
