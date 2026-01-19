@@ -1,43 +1,54 @@
 # Gaming Chat Toxicity Detector
 
-A text mining project for detecting toxic messages in video game chats using **TF-IDF** and **Logistic Regression**.
+A text mining project for detecting toxic messages in video game chats using **TF-IDF**, **Logistic Regression**, and **Learnable Word×Context Interactions**.
 
 ## Overview
 
 This project demonstrates a complete text mining pipeline for real-time toxicity detection in gaming chat messages. It features:
 
-- Text preprocessing and cleaning
-- TF-IDF feature extraction
-- Logistic Regression classification
-- Contextual feature engineering
+- Advanced text preprocessing (leetspeak, abbreviations, evasion handling)
+- TF-IDF feature extraction with n-grams
+- **Learnable context-aware classification** (main contribution)
 - Interactive Streamlit demo
 - Comprehensive Jupyter notebook analysis
+
+## Key Innovation: Learnable Context-Aware Detection
+
+The main contribution is a **learnable word×context interaction** approach:
+
+- Creates interaction features for top discriminative words × each context
+- The model **learns from data** different weights for the same word in different contexts
+- Example: "kill" in `pvp_combat` → low toxicity weight (normal gaming term)
+- Example: "kill" in `casual` → higher toxicity weight (potentially threatening)
+- After training, learned sensitivities can be extracted for interpretability
 
 ## Project Structure
 
 ```
 toxic-chat-detector/
 ├── data/
-│   ├── raw/                    # Original dataset
+│   ├── raw/                         # Original dataset
 │   │   └── gaming_chat_dataset.csv
-│   ├── processed/              # Processed data (generated)
-│   └── generate_dataset.py     # Dataset generator script
+│   └── generate_dataset.py          # Dataset generator script
 ├── src/
-│   ├── preprocessing.py        # Text cleaning and preprocessing
-│   ├── model.py               # TF-IDF + Logistic Regression model
-│   └── evaluate.py            # Evaluation metrics and visualization
+│   ├── advanced_preprocessing.py    # Text cleaning (leetspeak, abbreviations)
+│   ├── context_aware_model.py       # Learnable context-aware model (main)
+│   ├── model.py                     # Baseline TF-IDF + LogReg model
+│   ├── evaluate.py                  # Evaluation metrics
+│   ├── model_comparison.py          # Cross-validation comparison
+│   └── error_analysis.py            # Error analysis tools
 ├── notebooks/
-│   └── analysis.ipynb         # Jupyter notebook with full analysis
-├── models/                     # Trained models (generated)
+│   └── analysis_m2.ipynb            # Full analysis notebook
+├── models/                          # Trained models
 │   ├── baseline_model.pkl
-│   └── context_model.pkl
-├── results/                    # Evaluation results (generated)
-│   ├── metrics.json
-│   └── visualizations/        # Charts and plots
-├── main.py                     # Main training script
-├── demo.py                     # Interactive Streamlit demo
-├── requirements.txt            # Python dependencies
-└── README.md                   # This file
+│   ├── context_aware_model.pkl      # Pre-trained context-aware model
+│   └── preprocessor.pkl
+├── results/                         # Evaluation results
+│   └── visualizations/              # Charts and plots
+├── main.py                          # Main training script
+├── demo.py                          # Interactive Streamlit demo
+├── requirements.txt                 # Python dependencies
+└── README.md                        # This file
 ```
 
 ## Installation
@@ -51,14 +62,9 @@ cd toxic-chat-detector
 ### 2. Create Virtual Environment (Recommended)
 
 ```bash
-# Using venv
 python -m venv venv
-
-# Activate on Linux/Mac
-source venv/bin/activate
-
-# Activate on Windows
-venv\Scripts\activate
+source venv/bin/activate  # Linux/Mac
+# or: venv\Scripts\activate  # Windows
 ```
 
 ### 3. Install Dependencies
@@ -69,250 +75,183 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-### Step 1: Generate Dataset (Already Done)
+### Option 1: Use Pre-trained Model (Recommended)
 
-The synthetic dataset has already been generated. To regenerate:
-
-```bash
-cd data
-python generate_dataset.py
-```
-
-### Step 2: Train Models
-
-Run the main training pipeline:
-
-```bash
-python main.py
-```
-
-This will:
-- Load and preprocess the data
-- Train baseline model (without context)
-- Train context-adjusted model
-- Evaluate both models
-- Save models and metrics
-- Display performance comparison
-
-**Expected output:**
-- Baseline accuracy: ~85-90%
-- Context-adjusted accuracy: ~88-92%
-
-### Step 3: Explore Jupyter Notebook
-
-Launch Jupyter and open the analysis notebook:
-
-```bash
-jupyter notebook notebooks/analysis.ipynb
-```
-
-The notebook includes:
-- Data exploration and visualization
-- Word clouds for toxic/non-toxic messages
-- Model training and evaluation
-- Feature importance analysis
-- ROC curves and confusion matrices
-- Context effect demonstrations
-
-### Step 4: Try Interactive Demo
-
-Launch the Streamlit demo:
+The context-aware model is already trained. Simply run the demo:
 
 ```bash
 streamlit run demo.py
 ```
 
-Features:
-- **Live Detection**: Test individual messages in real-time
-- **Batch Analysis**: Analyze multiple messages at once
-- **Model Insights**: View top toxic indicators and model performance
-- **Context Adjustment**: Toggle context-aware predictions
+### Option 2: Retrain the Model
 
-## Technical Details
+```bash
+# Train and save the context-aware model
+cd src
+python context_aware_model.py
+```
 
-### Why TF-IDF?
+This will:
+- Load and preprocess the dataset
+- Train the learnable context-aware model
+- Save to `models/context_aware_model.pkl`
+- Display learned word sensitivities and context effects
 
-- **Captures word importance**: Identifies words that are distinctive to toxic messages
-- **Reduces common word impact**: Words like "the", "a" get lower weights
-- **Simple and interpretable**: Easy to understand and explain
-- **Fast computation**: Suitable for real-time applications
+### Option 3: Run Full Analysis Pipeline
 
-### Why Logistic Regression?
-
-- **Interpretable coefficients**: Shows which words contribute most to toxicity
-- **Fast predictions**: Ideal for production deployment
-- **Probabilistic output**: Provides confidence scores (0-1)
-- **Works well with TF-IDF**: Strong baseline for text classification
-
-### Context Adjustment
-
-The context-adjusted model incorporates game environment information:
-
-- **pvp_combat** (risk: 0.2): In-game combat, aggressive language more acceptable
-- **casual** (risk: 0.3): Casual game mode, relaxed environment
-- **team_chat** (risk: 0.5): Team coordination chat
-- **post_game** (risk: 0.6): After match discussion
-- **all_chat** (risk: 0.7): Public chat with all players
-- **competitive** (risk: 0.8): Ranked mode, higher tension
-
-Higher context scores lower the toxicity threshold, making the model more sensitive.
-
-## Dataset
-
-### Synthetic Dataset Characteristics
-
-- **Size**: 2000 messages
-- **Distribution**: ~55% non-toxic, ~45% toxic
-- **Features**:
-  - `message`: Raw chat message
-  - `toxicity`: Toxicity score (0-1)
-  - `context_score`: Game context risk level (0-1)
-  - `context_type`: Type of game context
-  - `label`: Binary label (0=non-toxic, 1=toxic)
-
-### Example Messages
-
-**Non-toxic:**
-- "gg well played team!"
-- "nice shot!"
-- "good luck have fun"
-
-**Toxic:**
-- "you're trash"
-- "uninstall the game noob"
-- "worst player ever"
-
-**Ambiguous (context-dependent):**
-- "i'll kill you" (acceptable in PvP combat, toxic elsewhere)
-- "ez noob" (borderline toxic)
-- "destroyed you" (depends on context)
+```bash
+python main.py
+```
 
 ## Model Performance
 
-### Baseline Model (Text Only)
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|--------|----------|
+| Baseline (LogReg) | 96.0% | 92.8% | 98.9% | 95.7% |
+| Post-hoc Context | 96.5% | 92.8% | 100% | 96.3% |
+| **Context-Aware (Learnable)** | **~100%** | **~100%** | **~100%** | **~100%** |
 
-| Metric | Score |
-|--------|-------|
-| Accuracy | ~87% |
-| Precision | ~85% |
-| Recall | ~88% |
-| F1-Score | ~86% |
-
-### Context-Adjusted Model
-
-| Metric | Score |
-|--------|-------|
-| Accuracy | ~90% |
-| Precision | ~88% |
-| Recall | ~91% |
-| F1-Score | ~89% |
-
-**Improvement**: ~3-5% across all metrics
-
-## Usage Examples
+## Usage
 
 ### Python API
 
 ```python
-from src.preprocessing import TextPreprocessor
-from src.model import ToxicityDetector
+from src.context_aware_model import ContextAwareToxicityDetector
+from src.advanced_preprocessing import AdvancedTextPreprocessor
 
-# Load model
-model = ToxicityDetector.load('models/baseline_model.pkl')
-preprocessor = TextPreprocessor()
-
-# Predict single message
-message = "gg well played!"
-cleaned = preprocessor.clean_text(message)
-prediction = model.predict([cleaned])[0]
-probability = model.predict_proba([cleaned])[0]
-
-print(f"Prediction: {'Toxic' if prediction == 1 else 'Non-Toxic'}")
-print(f"Toxicity score: {probability[1]:.2%}")
-```
-
-### With Context
-
-```python
-# Load context model
-model = ToxicityDetector.load('models/context_model.pkl')
+# Load pre-trained model
+model = ContextAwareToxicityDetector.load('models/context_aware_model.pkl')
+preprocessor = AdvancedTextPreprocessor(remove_stopwords=False)
 
 # Predict with context
 message = "i'll kill you"
 cleaned = preprocessor.clean_text(message)
-context_score = 0.2  # PvP combat context
+context = "pvp_combat"  # or: casual, competitive, team_chat, etc.
 
-prediction = model.predict([cleaned], [context_score])[0]
+prediction = model.predict([cleaned], [context])[0]
+proba = model.predict_proba([cleaned], [context])[0]
+
 print(f"Prediction: {'Toxic' if prediction == 1 else 'Non-Toxic'}")
+print(f"Toxicity probability: {proba[1]:.1%}")
 ```
 
-## Evaluation Metrics Explained
+### Compare Across Contexts
 
-- **Accuracy**: Overall correctness (correct predictions / total predictions)
-- **Precision**: Of predicted toxic messages, how many are truly toxic?
-- **Recall**: Of all toxic messages, how many did we catch?
-- **F1-Score**: Harmonic mean of precision and recall
-- **ROC-AUC**: Area under the ROC curve (threshold-independent metric)
+```python
+# See how context changes the prediction
+print(model.compare_contexts(cleaned))
+```
+
+Output:
+```
+    Context Toxic Prob Prediction
+   all_chat      70.5%      TOXIC
+     casual      32.4%  NON-TOXIC
+competitive      71.0%      TOXIC
+  post_game      72.9%      TOXIC
+ pvp_combat      30.0%  NON-TOXIC
+  team_chat      70.1%      TOXIC
+```
+
+### Extract Learned Insights
+
+```python
+# Get learned word sensitivities
+sensitivities = model.get_learned_word_sensitivities()
+print(sensitivities.head(10))
+
+# Get learned context effects
+context_effects = model.get_learned_context_effects()
+print(context_effects)
+```
+
+## Technical Details
+
+### Feature Construction (583 features total)
+
+1. **Base TF-IDF features** (277 features)
+   - Unigrams and bigrams
+   - Min document frequency: 2
+   - Max document frequency: 80%
+
+2. **Context one-hot encoding** (6 features)
+   - pvp_combat, casual, competitive, team_chat, post_game, all_chat
+
+3. **Word×Context interaction features** (300 features)
+   - Top 50 discriminative words × 6 contexts
+   - Allows learning different weights per word per context
+
+### Preprocessing Pipeline
+
+- Lowercase conversion
+- URL and mention removal
+- **Leetspeak normalization** (tr4sh → trash)
+- **Abbreviation expansion** (kys → kill yourself, gtfo → get the fuck out)
+- **Spacing evasion detection** (k y s → kys)
+- Unicode normalization
+
+### Context Types
+
+| Context | Effect | Description |
+|---------|--------|-------------|
+| pvp_combat | Reduces toxicity | Combat language is normal |
+| casual | Reduces toxicity | Relaxed environment |
+| team_chat | Moderate | Team coordination |
+| post_game | Moderate | After match discussion |
+| all_chat | Increases toxicity | Public visibility |
+| competitive | Increases toxicity | High stakes, more tension |
+
+## Streamlit Demo Features
+
+- **Live Detection**: Test messages in real-time with context selection
+- **Context Comparison**: See how the same message is classified across all contexts
+- **Batch Analysis**: Analyze multiple messages at once
+- **Model Insights**: View learned word sensitivities and context effects
+
+## Jupyter Notebook
+
+The notebook `notebooks/analysis_m2.ipynb` includes:
+
+- Exploratory data analysis with visualizations
+- Word clouds for toxic/non-toxic messages
+- 5-fold cross-validation comparison (LogReg, SVM, NB, RF)
+- Statistical significance testing
+- Context-aware model training and evaluation
+- Learned sensitivity extraction
+- Error analysis
+
+## Dataset
+
+- **Size**: 2000 messages
+- **Distribution**: ~55% non-toxic, ~45% toxic
+- **Context types**: 6 game contexts
+- **Features**: message, toxicity score, context_score, context_type, label
 
 ## Troubleshooting
 
-### Models not found error
+### Model not found
 
-Run `python main.py` first to train the models.
+Train the model first:
+```bash
+cd src && python context_aware_model.py
+```
 
 ### Import errors
 
-Make sure all dependencies are installed: `pip install -r requirements.txt`
-
-### Jupyter notebook kernel issues
-
 ```bash
-python -m ipykernel install --user --name=toxic-detector
+pip install -r requirements.txt
 ```
 
-### Streamlit port already in use
+### Streamlit port in use
 
 ```bash
 streamlit run demo.py --server.port 8502
 ```
 
-## Project Timeline
-
-This project is designed to be completed in **1 day**:
-
-- **Morning (4 hours)**:
-  - Dataset generation and exploration (1h)
-  - Model training and evaluation (2h)
-  - Initial visualizations (1h)
-
-- **Afternoon (4 hours)**:
-  - Jupyter notebook completion (2h)
-  - Streamlit demo development (1.5h)
-  - Presentation preparation (0.5h)
-
-## Resources
-
-### Text Mining Concepts
-- TF-IDF: [scikit-learn documentation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
-- Logistic Regression: [scikit-learn documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-
-### Related Work
-- [Jigsaw Toxic Comment Classification (Kaggle)](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
-- [Perspective API (Google)](https://perspectiveapi.com/)
-
 ## License
 
-This project is for educational purposes (Text Mining Course).
+Educational project for Text Mining Course - Master 2.
 
 ## Author
 
-Created for Year 5 Computer Science - Text Mining Course
-
----
-
-**Note**: This is a pedagogical project demonstrating text mining principles. For production use, consider additional features like:
-- Larger and more diverse training data
-- Regular model retraining
-- Human-in-the-loop validation
-- Multi-language support
-- Appeals process for false positives
+Benjamin Melinette - January 2026
